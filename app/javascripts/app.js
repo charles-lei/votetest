@@ -7,9 +7,11 @@ import { default as contract } from 'truffle-contract'
 // Import our contract artifacts and turn them into usable abstractions.
 // import metacoin_artifacts from '../../build/contracts/MetaCoin.json'
 // import votes_artifacts from '../../build/contracts/VoteSystem.json'
+import votes_artifacts from '../../build/contracts/Vote.json'
 // MetaCoin is our usable abstraction, which we'll use through the code below.
 // var MetaCoin = contract(metacoin_artifacts);
 // var VoteSystem = contract(votes_artifacts);
+var Vote  = contract(votes_artifacts);
 // The following code is simple to show off interacting with your contracts.
 // As your needs grow you will likely need to change its form and structure.
 // For application bootstrapping, check out window.addEventListener below.
@@ -17,9 +19,7 @@ var accounts;
 var account;
 window.App = {
   start: function() {
-    $("body").append("<div>hello world</div>")
-    var self = this;
-
+    Vote.setProvider(web3.currentProvider);
     // Bootstrap the MetaCoin abstraction for Use.
     // MetaCoin.setProvider(web3.currentProvider);
     // VoteSystem.setProvider(web3.currentProvider);
@@ -42,10 +42,19 @@ window.App = {
     // });
   },
   createVote: function(params){
-    
+    var self = this;
+    var nickName = 'firstVote';
+    var theme = 'firstTheme';
+    var voterAddresses = ['0x36DC69A3cDF51De25dE600110e5fD16811906FB3','0x31107c95C62FE161Bce091716879e28d84e2A484'];
+    VoteSystem.deployed().then(function(instance) {
+      return instance.createVote(nickName, theme, voterAddresses, {from: account});
+    }).catch(function(e) {
+      console.log(e);
+      self.setStatus("Error sending coin; see log.");
+    });
   },
-  getResult: function() {
-
+  getResult: function(params) {
+    
   },
   vote: function(params) {
 
@@ -121,7 +130,7 @@ window.addEventListener('load', function() {
     // Use Mist/MetaMask's provider
     window.web3 = new Web3(web3.currentProvider);
   } else {
-    console.warn("No web3 detected. Falling back to http://127.0.0.1:9545. You should remove this fallback when you deploy live, as it's inherently insecure. Consider switching to Metamask for development. More info here: http://truffleframework.com/tutorials/truffle-and-metamask");
+    console.warn("No web3 detected. Falling back to http://127.0.0.1:7545. You should remove this fallback when you deploy live, as it's inherently insecure. Consider switching to Metamask for development. More info here: http://truffleframework.com/tutorials/truffle-and-metamask");
     // fallback - use your fallback strategy (local node / hosted node + in-dapp id mgmt / fail)
     window.web3 = new Web3(new Web3.providers.HttpProvider("http://127.0.0.1:7545"));
   }

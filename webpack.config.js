@@ -15,6 +15,12 @@ module.exports = {
     new CopyWebpackPlugin([
       { from: './app/create.html', to: "create.html" }
     ]),
+    new CopyWebpackPlugin([
+      { from: './app/vote.html', to: "vote.html" }
+    ]),
+    new CopyWebpackPlugin([
+      { from: './app/result.html', to: "result.html" }
+    ]),
     new webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery"
