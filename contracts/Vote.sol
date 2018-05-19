@@ -1,7 +1,7 @@
 pragma solidity^0.4.18;
 //pragma experimental ABIEncoderV2;
 
-import "./CreateVote1.sol";
+import "./CreateVote.sol";
 
 contract Vote is CreateVote{
     
