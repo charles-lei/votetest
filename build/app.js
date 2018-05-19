@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 76);
+/******/ 	return __webpack_require__(__webpack_require__.s = 74);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -13249,9 +13249,9 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*! bignumber.js v2.0.7 https://github.com/Mik
 
 
 
-var base64 = __webpack_require__(77)
-var ieee754 = __webpack_require__(104)
-var isArray = __webpack_require__(106)
+var base64 = __webpack_require__(75)
+var ieee754 = __webpack_require__(102)
+var isArray = __webpack_require__(104)
 
 exports.Buffer = Buffer
 exports.SlowBuffer = SlowBuffer
@@ -20576,7 +20576,7 @@ module.exports = g;
 ;(function (root, factory, undef) {
 	if (true) {
 		// CommonJS
-		module.exports = exports = factory(__webpack_require__(0), __webpack_require__(33), __webpack_require__(81), __webpack_require__(79), __webpack_require__(16), __webpack_require__(18), __webpack_require__(50), __webpack_require__(57), __webpack_require__(97), __webpack_require__(58), __webpack_require__(98), __webpack_require__(32), __webpack_require__(96), __webpack_require__(48), __webpack_require__(92), __webpack_require__(17), __webpack_require__(1), __webpack_require__(82), __webpack_require__(84), __webpack_require__(83), __webpack_require__(86), __webpack_require__(85), __webpack_require__(87), __webpack_require__(88), __webpack_require__(89), __webpack_require__(91), __webpack_require__(90), __webpack_require__(80), __webpack_require__(78), __webpack_require__(99), __webpack_require__(95), __webpack_require__(94), __webpack_require__(93));
+		module.exports = exports = factory(__webpack_require__(0), __webpack_require__(33), __webpack_require__(79), __webpack_require__(77), __webpack_require__(16), __webpack_require__(18), __webpack_require__(50), __webpack_require__(57), __webpack_require__(95), __webpack_require__(58), __webpack_require__(96), __webpack_require__(32), __webpack_require__(94), __webpack_require__(48), __webpack_require__(90), __webpack_require__(17), __webpack_require__(1), __webpack_require__(80), __webpack_require__(82), __webpack_require__(81), __webpack_require__(84), __webpack_require__(83), __webpack_require__(85), __webpack_require__(86), __webpack_require__(87), __webpack_require__(89), __webpack_require__(88), __webpack_require__(78), __webpack_require__(76), __webpack_require__(97), __webpack_require__(93), __webpack_require__(92), __webpack_require__(91));
 	}
 	else if (typeof define === "function" && define.amd) {
 		// AMD
@@ -20775,15 +20775,15 @@ module.exports = g;
 
 var f = __webpack_require__(5);
 
-var SolidityTypeAddress = __webpack_require__(117);
-var SolidityTypeBool = __webpack_require__(118);
-var SolidityTypeInt = __webpack_require__(121);
-var SolidityTypeUInt = __webpack_require__(124);
-var SolidityTypeDynamicBytes = __webpack_require__(120);
-var SolidityTypeString = __webpack_require__(123);
-var SolidityTypeReal = __webpack_require__(122);
-var SolidityTypeUReal = __webpack_require__(125);
-var SolidityTypeBytes = __webpack_require__(119);
+var SolidityTypeAddress = __webpack_require__(115);
+var SolidityTypeBool = __webpack_require__(116);
+var SolidityTypeInt = __webpack_require__(119);
+var SolidityTypeUInt = __webpack_require__(122);
+var SolidityTypeDynamicBytes = __webpack_require__(118);
+var SolidityTypeString = __webpack_require__(121);
+var SolidityTypeReal = __webpack_require__(120);
+var SolidityTypeUReal = __webpack_require__(123);
+var SolidityTypeBytes = __webpack_require__(117);
 
 var isDynamic = function (solidityType, type) {
    return solidityType.isDynamicType(type) ||
@@ -21044,15 +21044,15 @@ module.exports = coder;
 
 var f = __webpack_require__(6);
 
-var SolidityTypeAddress = __webpack_require__(156);
-var SolidityTypeBool = __webpack_require__(157);
-var SolidityTypeInt = __webpack_require__(160);
-var SolidityTypeUInt = __webpack_require__(163);
-var SolidityTypeDynamicBytes = __webpack_require__(159);
-var SolidityTypeString = __webpack_require__(162);
-var SolidityTypeReal = __webpack_require__(161);
-var SolidityTypeUReal = __webpack_require__(164);
-var SolidityTypeBytes = __webpack_require__(158);
+var SolidityTypeAddress = __webpack_require__(154);
+var SolidityTypeBool = __webpack_require__(155);
+var SolidityTypeInt = __webpack_require__(158);
+var SolidityTypeUInt = __webpack_require__(161);
+var SolidityTypeDynamicBytes = __webpack_require__(157);
+var SolidityTypeString = __webpack_require__(160);
+var SolidityTypeReal = __webpack_require__(159);
+var SolidityTypeUReal = __webpack_require__(162);
+var SolidityTypeBytes = __webpack_require__(156);
 
 /**
  * SolidityCoder prototype should be used to encode/decode solidity params of any type
@@ -21560,15 +21560,15 @@ module.exports = coder;
 
 var f = __webpack_require__(7);
 
-var SolidityTypeAddress = __webpack_require__(188);
-var SolidityTypeBool = __webpack_require__(189);
-var SolidityTypeInt = __webpack_require__(192);
-var SolidityTypeUInt = __webpack_require__(195);
-var SolidityTypeDynamicBytes = __webpack_require__(191);
-var SolidityTypeString = __webpack_require__(194);
-var SolidityTypeReal = __webpack_require__(193);
-var SolidityTypeUReal = __webpack_require__(196);
-var SolidityTypeBytes = __webpack_require__(190);
+var SolidityTypeAddress = __webpack_require__(186);
+var SolidityTypeBool = __webpack_require__(187);
+var SolidityTypeInt = __webpack_require__(190);
+var SolidityTypeUInt = __webpack_require__(193);
+var SolidityTypeDynamicBytes = __webpack_require__(189);
+var SolidityTypeString = __webpack_require__(192);
+var SolidityTypeReal = __webpack_require__(191);
+var SolidityTypeUReal = __webpack_require__(194);
+var SolidityTypeBytes = __webpack_require__(188);
 
 var isDynamic = function (solidityType, type) {
    return solidityType.isDynamicType(type) ||
@@ -27949,18 +27949,6 @@ module.exports = XMLHttpRequest;
 
 /***/ }),
 /* 70 */
-/***/ (function(module, exports) {
-
-module.exports = {"contractName":"MetaCoin","abi":[{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Transfer","type":"event"},{"constant":false,"inputs":[{"name":"receiver","type":"address"},{"name":"amount","type":"uint256"}],"name":"sendCoin","outputs":[{"name":"sufficient","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"addr","type":"address"}],"name":"getBalanceInEth","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"addr","type":"address"}],"name":"getBalance","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"}],"bytecode":"0x6060604052341561000f57600080fd5b6127106000803273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506103b8806100636000396000f300606060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680637bd703e81461005c57806390b98a11146100a9578063f8b2cb4f14610103575b600080fd5b341561006757600080fd5b610093600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610150565b6040518082815260200191505060405180910390f35b34156100b457600080fd5b6100e9600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506101eb565b604051808215151515815260200191505060405180910390f35b341561010e57600080fd5b61013a600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610344565b6040518082815260200191505060405180910390f35b600073__ConvertLib____________________________6396e4ee3d61017584610344565b60026040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808381526020018281526020019250505060206040518083038186803b15156101cd57600080fd5b5af415156101da57600080fd5b505050604051805190509050919050565b6000816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054101561023c576000905061033e565b816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540392505081905550816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a3600190505b92915050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490509190505600a165627a7a723058209809491d13d8fee3c89cf0bece0d96651241cb9fa3c5b8b3618cbf66d994b7640029","deployedBytecode":"0x606060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680637bd703e81461005c57806390b98a11146100a9578063f8b2cb4f14610103575b600080fd5b341561006757600080fd5b610093600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610150565b6040518082815260200191505060405180910390f35b34156100b457600080fd5b6100e9600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506101eb565b604051808215151515815260200191505060405180910390f35b341561010e57600080fd5b61013a600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610344565b6040518082815260200191505060405180910390f35b600073__ConvertLib____________________________6396e4ee3d61017584610344565b60026040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808381526020018281526020019250505060206040518083038186803b15156101cd57600080fd5b5af415156101da57600080fd5b505050604051805190509050919050565b6000816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054101561023c576000905061033e565b816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540392505081905550816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a3600190505b92915050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490509190505600a165627a7a723058209809491d13d8fee3c89cf0bece0d96651241cb9fa3c5b8b3618cbf66d994b7640029","sourceMap":"316:675:1:-;;;453:62;;;;;;;;506:5;484:8;:19;493:9;484:19;;;;;;;;;;;;;;;:27;;;;316:675;;;;;;","deployedSourceMap":"316:675:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;780:117;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;518:259;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;900:89;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;780:117;839:4;855:10;:18;874:16;885:4;874:10;:16::i;:::-;891:1;855:38;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;848:45;;780:117;;;:::o;518:259::-;582:15;630:6;607:8;:20;616:10;607:20;;;;;;;;;;;;;;;;:29;603:47;;;645:5;638:12;;;;603:47;678:6;654:8;:20;663:10;654:20;;;;;;;;;;;;;;;;:30;;;;;;;;;;;710:6;688:8;:18;697:8;688:18;;;;;;;;;;;;;;;;:28;;;;;;;;;;;741:8;720:38;;729:10;720:38;;;751:6;720:38;;;;;;;;;;;;;;;;;;769:4;762:11;;518:259;;;;;:::o;900:89::-;954:4;971:8;:14;980:4;971:14;;;;;;;;;;;;;;;;964:21;;900:89;;;:::o","source":"pragma solidity ^0.4.17;\n\nimport \"./ConvertLib.sol\";\n\n// This is just a simple example of a coin-like contract.\n// It is not standards compatible and cannot be expected to talk to other\n// coin/token contracts. If you want to create a standards-compliant\n// token, see: https://github.com/ConsenSys/Tokens. Cheers!\n\ncontract MetaCoin {\n\tmapping (address => uint) balances;\n\n\tevent Transfer(address indexed _from, address indexed _to, uint256 _value);\n\n\tfunction MetaCoin() public {\n\t\tbalances[tx.origin] = 10000;\n\t}\n\n\tfunction sendCoin(address receiver, uint amount) public returns(bool sufficient) {\n\t\tif (balances[msg.sender] < amount) return false;\n\t\tbalances[msg.sender] -= amount;\n\t\tbalances[receiver] += amount;\n\t\tTransfer(msg.sender, receiver, amount);\n\t\treturn true;\n\t}\n\n\tfunction getBalanceInEth(address addr) public view returns(uint){\n\t\treturn ConvertLib.convert(getBalance(addr),2);\n\t}\n\n\tfunction getBalance(address addr) public view returns(uint) {\n\t\treturn balances[addr];\n\t}\n}\n","sourcePath":"/Users/edz/votetest/contracts/MetaCoin.sol","ast":{"absolutePath":"/Users/edz/votetest/contracts/MetaCoin.sol","exportedSymbols":{"MetaCoin":[112]},"id":113,"nodeType":"SourceUnit","nodes":[{"id":18,"literals":["solidity","^","0.4",".17"],"nodeType":"PragmaDirective","src":"0:24:1"},{"absolutePath":"/Users/edz/votetest/contracts/ConvertLib.sol","file":"./ConvertLib.sol","id":19,"nodeType":"ImportDirective","scope":113,"sourceUnit":17,"src":"26:26:1","symbolAliases":[],"unitAlias":""},{"baseContracts":[],"contractDependencies":[],"contractKind":"contract","documentation":null,"fullyImplemented":true,"id":112,"linearizedBaseContracts":[112],"name":"MetaCoin","nodeType":"ContractDefinition","nodes":[{"constant":false,"id":23,"name":"balances","nodeType":"VariableDeclaration","scope":112,"src":"337:34:1","stateVariable":true,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"},"typeName":{"id":22,"keyType":{"id":20,"name":"address","nodeType":"ElementaryTypeName","src":"346:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"nodeType":"Mapping","src":"337:25:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"},"valueType":{"id":21,"name":"uint","nodeType":"ElementaryTypeName","src":"357:4:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}}},"value":null,"visibility":"internal"},{"anonymous":false,"documentation":null,"id":31,"name":"Transfer","nodeType":"EventDefinition","parameters":{"id":30,"nodeType":"ParameterList","parameters":[{"constant":false,"id":25,"indexed":true,"name":"_from","nodeType":"VariableDeclaration","scope":31,"src":"390:21:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":24,"name":"address","nodeType":"ElementaryTypeName","src":"390:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"},{"constant":false,"id":27,"indexed":true,"name":"_to","nodeType":"VariableDeclaration","scope":31,"src":"413:19:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":26,"name":"address","nodeType":"ElementaryTypeName","src":"413:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"},{"constant":false,"id":29,"indexed":false,"name":"_value","nodeType":"VariableDeclaration","scope":31,"src":"434:14:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":28,"name":"uint256","nodeType":"ElementaryTypeName","src":"434:7:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"src":"389:60:1"},"src":"375:75:1"},{"body":{"id":41,"nodeType":"Block","src":"480:35:1","statements":[{"expression":{"argumentTypes":null,"id":39,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftHandSide":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":34,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"484:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":37,"indexExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":35,"name":"tx","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":269,"src":"493:2:1","typeDescriptions":{"typeIdentifier":"t_magic_transaction","typeString":"tx"}},"id":36,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"origin","nodeType":"MemberAccess","referencedDeclaration":null,"src":"493:9:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":true,"nodeType":"IndexAccess","src":"484:19:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"Assignment","operator":"=","rightHandSide":{"argumentTypes":null,"hexValue":"3130303030","id":38,"isConstant":false,"isLValue":false,"isPure":true,"kind":"number","lValueRequested":false,"nodeType":"Literal","src":"506:5:1","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_rational_10000_by_1","typeString":"int_const 10000"},"value":"10000"},"src":"484:27:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"id":40,"nodeType":"ExpressionStatement","src":"484:27:1"}]},"documentation":null,"id":42,"implemented":true,"isConstructor":true,"isDeclaredConst":false,"modifiers":[],"name":"MetaCoin","nodeType":"FunctionDefinition","parameters":{"id":32,"nodeType":"ParameterList","parameters":[],"src":"470:2:1"},"payable":false,"returnParameters":{"id":33,"nodeType":"ParameterList","parameters":[],"src":"480:0:1"},"scope":112,"src":"453:62:1","stateMutability":"nonpayable","superFunction":null,"visibility":"public"},{"body":{"id":82,"nodeType":"Block","src":"599:178:1","statements":[{"condition":{"argumentTypes":null,"commonType":{"typeIdentifier":"t_uint256","typeString":"uint256"},"id":56,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftExpression":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":51,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"607:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":54,"indexExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":52,"name":"msg","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":259,"src":"616:3:1","typeDescriptions":{"typeIdentifier":"t_magic_message","typeString":"msg"}},"id":53,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"sender","nodeType":"MemberAccess","referencedDeclaration":null,"src":"616:10:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":false,"nodeType":"IndexAccess","src":"607:20:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"BinaryOperation","operator":"<","rightExpression":{"argumentTypes":null,"id":55,"name":"amount","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":46,"src":"630:6:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"src":"607:29:1","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"}},"falseBody":null,"id":59,"nodeType":"IfStatement","src":"603:47:1","trueBody":{"expression":{"argumentTypes":null,"hexValue":"66616c7365","id":57,"isConstant":false,"isLValue":false,"isPure":true,"kind":"bool","lValueRequested":false,"nodeType":"Literal","src":"645:5:1","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"},"value":"false"},"functionReturnParameters":50,"id":58,"nodeType":"Return","src":"638:12:1"}},{"expression":{"argumentTypes":null,"id":65,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftHandSide":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":60,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"654:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":63,"indexExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":61,"name":"msg","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":259,"src":"663:3:1","typeDescriptions":{"typeIdentifier":"t_magic_message","typeString":"msg"}},"id":62,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"sender","nodeType":"MemberAccess","referencedDeclaration":null,"src":"663:10:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":true,"nodeType":"IndexAccess","src":"654:20:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"Assignment","operator":"-=","rightHandSide":{"argumentTypes":null,"id":64,"name":"amount","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":46,"src":"678:6:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"src":"654:30:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"id":66,"nodeType":"ExpressionStatement","src":"654:30:1"},{"expression":{"argumentTypes":null,"id":71,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftHandSide":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":67,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"688:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":69,"indexExpression":{"argumentTypes":null,"id":68,"name":"receiver","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":44,"src":"697:8:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":true,"nodeType":"IndexAccess","src":"688:18:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"Assignment","operator":"+=","rightHandSide":{"argumentTypes":null,"id":70,"name":"amount","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":46,"src":"710:6:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"src":"688:28:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"id":72,"nodeType":"ExpressionStatement","src":"688:28:1"},{"expression":{"argumentTypes":null,"arguments":[{"argumentTypes":null,"expression":{"argumentTypes":null,"id":74,"name":"msg","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":259,"src":"729:3:1","typeDescriptions":{"typeIdentifier":"t_magic_message","typeString":"msg"}},"id":75,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"sender","nodeType":"MemberAccess","referencedDeclaration":null,"src":"729:10:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},{"argumentTypes":null,"id":76,"name":"receiver","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":44,"src":"741:8:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},{"argumentTypes":null,"id":77,"name":"amount","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":46,"src":"751:6:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}}],"expression":{"argumentTypes":[{"typeIdentifier":"t_address","typeString":"address"},{"typeIdentifier":"t_address","typeString":"address"},{"typeIdentifier":"t_uint256","typeString":"uint256"}],"id":73,"name":"Transfer","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":31,"src":"720:8:1","typeDescriptions":{"typeIdentifier":"t_function_event_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$","typeString":"function (address,address,uint256)"}},"id":78,"isConstant":false,"isLValue":false,"isPure":false,"kind":"functionCall","lValueRequested":false,"names":[],"nodeType":"FunctionCall","src":"720:38:1","typeDescriptions":{"typeIdentifier":"t_tuple$__$","typeString":"tuple()"}},"id":79,"nodeType":"ExpressionStatement","src":"720:38:1"},{"expression":{"argumentTypes":null,"hexValue":"74727565","id":80,"isConstant":false,"isLValue":false,"isPure":true,"kind":"bool","lValueRequested":false,"nodeType":"Literal","src":"769:4:1","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"},"value":"true"},"functionReturnParameters":50,"id":81,"nodeType":"Return","src":"762:11:1"}]},"documentation":null,"id":83,"implemented":true,"isConstructor":false,"isDeclaredConst":false,"modifiers":[],"name":"sendCoin","nodeType":"FunctionDefinition","parameters":{"id":47,"nodeType":"ParameterList","parameters":[{"constant":false,"id":44,"name":"receiver","nodeType":"VariableDeclaration","scope":83,"src":"536:16:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":43,"name":"address","nodeType":"ElementaryTypeName","src":"536:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"},{"constant":false,"id":46,"name":"amount","nodeType":"VariableDeclaration","scope":83,"src":"554:11:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":45,"name":"uint","nodeType":"ElementaryTypeName","src":"554:4:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"src":"535:31:1"},"payable":false,"returnParameters":{"id":50,"nodeType":"ParameterList","parameters":[{"constant":false,"id":49,"name":"sufficient","nodeType":"VariableDeclaration","scope":83,"src":"582:15:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"},"typeName":{"id":48,"name":"bool","nodeType":"ElementaryTypeName","src":"582:4:1","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"}},"value":null,"visibility":"internal"}],"src":"581:17:1"},"scope":112,"src":"518:259:1","stateMutability":"nonpayable","superFunction":null,"visibility":"public"},{"body":{"id":98,"nodeType":"Block","src":"844:53:1","statements":[{"expression":{"argumentTypes":null,"arguments":[{"argumentTypes":null,"arguments":[{"argumentTypes":null,"id":93,"name":"addr","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":85,"src":"885:4:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}}],"expression":{"argumentTypes":[{"typeIdentifier":"t_address","typeString":"address"}],"id":92,"name":"getBalance","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":111,"src":"874:10:1","typeDescriptions":{"typeIdentifier":"t_function_internal_view$_t_address_$returns$_t_uint256_$","typeString":"function (address) view returns (uint256)"}},"id":94,"isConstant":false,"isLValue":false,"isPure":false,"kind":"functionCall","lValueRequested":false,"names":[],"nodeType":"FunctionCall","src":"874:16:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},{"argumentTypes":null,"hexValue":"32","id":95,"isConstant":false,"isLValue":false,"isPure":true,"kind":"number","lValueRequested":false,"nodeType":"Literal","src":"891:1:1","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_rational_2_by_1","typeString":"int_const 2"},"value":"2"}],"expression":{"argumentTypes":[{"typeIdentifier":"t_uint256","typeString":"uint256"},{"typeIdentifier":"t_rational_2_by_1","typeString":"int_const 2"}],"expression":{"argumentTypes":null,"id":90,"name":"ConvertLib","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":16,"src":"855:10:1","typeDescriptions":{"typeIdentifier":"t_type$_t_contract$_ConvertLib_$16_$","typeString":"type(library ConvertLib)"}},"id":91,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"convert","nodeType":"MemberAccess","referencedDeclaration":15,"src":"855:18:1","typeDescriptions":{"typeIdentifier":"t_function_delegatecall_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$","typeString":"function (uint256,uint256) pure returns (uint256)"}},"id":96,"isConstant":false,"isLValue":false,"isPure":false,"kind":"functionCall","lValueRequested":false,"names":[],"nodeType":"FunctionCall","src":"855:38:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"functionReturnParameters":89,"id":97,"nodeType":"Return","src":"848:45:1"}]},"documentation":null,"id":99,"implemented":true,"isConstructor":false,"isDeclaredConst":true,"modifiers":[],"name":"getBalanceInEth","nodeType":"FunctionDefinition","parameters":{"id":86,"nodeType":"ParameterList","parameters":[{"constant":false,"id":85,"name":"addr","nodeType":"VariableDeclaration","scope":99,"src":"805:12:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":84,"name":"address","nodeType":"ElementaryTypeName","src":"805:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"}],"src":"804:14:1"},"payable":false,"returnParameters":{"id":89,"nodeType":"ParameterList","parameters":[{"constant":false,"id":88,"name":"","nodeType":"VariableDeclaration","scope":99,"src":"839:4:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":87,"name":"uint","nodeType":"ElementaryTypeName","src":"839:4:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"src":"838:6:1"},"scope":112,"src":"780:117:1","stateMutability":"view","superFunction":null,"visibility":"public"},{"body":{"id":110,"nodeType":"Block","src":"960:29:1","statements":[{"expression":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":106,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"971:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":108,"indexExpression":{"argumentTypes":null,"id":107,"name":"addr","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":101,"src":"980:4:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":false,"nodeType":"IndexAccess","src":"971:14:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"functionReturnParameters":105,"id":109,"nodeType":"Return","src":"964:21:1"}]},"documentation":null,"id":111,"implemented":true,"isConstructor":false,"isDeclaredConst":true,"modifiers":[],"name":"getBalance","nodeType":"FunctionDefinition","parameters":{"id":102,"nodeType":"ParameterList","parameters":[{"constant":false,"id":101,"name":"addr","nodeType":"VariableDeclaration","scope":111,"src":"920:12:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":100,"name":"address","nodeType":"ElementaryTypeName","src":"920:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"}],"src":"919:14:1"},"payable":false,"returnParameters":{"id":105,"nodeType":"ParameterList","parameters":[{"constant":false,"id":104,"name":"","nodeType":"VariableDeclaration","scope":111,"src":"954:4:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":103,"name":"uint","nodeType":"ElementaryTypeName","src":"954:4:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"src":"953:6:1"},"scope":112,"src":"900:89:1","stateMutability":"view","superFunction":null,"visibility":"public"}],"scope":113,"src":"316:675:1"}],"src":"0:992:1"},"legacyAST":{"absolutePath":"/Users/edz/votetest/contracts/MetaCoin.sol","exportedSymbols":{"MetaCoin":[112]},"id":113,"nodeType":"SourceUnit","nodes":[{"id":18,"literals":["solidity","^","0.4",".17"],"nodeType":"PragmaDirective","src":"0:24:1"},{"absolutePath":"/Users/edz/votetest/contracts/ConvertLib.sol","file":"./ConvertLib.sol","id":19,"nodeType":"ImportDirective","scope":113,"sourceUnit":17,"src":"26:26:1","symbolAliases":[],"unitAlias":""},{"baseContracts":[],"contractDependencies":[],"contractKind":"contract","documentation":null,"fullyImplemented":true,"id":112,"linearizedBaseContracts":[112],"name":"MetaCoin","nodeType":"ContractDefinition","nodes":[{"constant":false,"id":23,"name":"balances","nodeType":"VariableDeclaration","scope":112,"src":"337:34:1","stateVariable":true,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"},"typeName":{"id":22,"keyType":{"id":20,"name":"address","nodeType":"ElementaryTypeName","src":"346:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"nodeType":"Mapping","src":"337:25:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"},"valueType":{"id":21,"name":"uint","nodeType":"ElementaryTypeName","src":"357:4:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}}},"value":null,"visibility":"internal"},{"anonymous":false,"documentation":null,"id":31,"name":"Transfer","nodeType":"EventDefinition","parameters":{"id":30,"nodeType":"ParameterList","parameters":[{"constant":false,"id":25,"indexed":true,"name":"_from","nodeType":"VariableDeclaration","scope":31,"src":"390:21:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":24,"name":"address","nodeType":"ElementaryTypeName","src":"390:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"},{"constant":false,"id":27,"indexed":true,"name":"_to","nodeType":"VariableDeclaration","scope":31,"src":"413:19:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":26,"name":"address","nodeType":"ElementaryTypeName","src":"413:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"},{"constant":false,"id":29,"indexed":false,"name":"_value","nodeType":"VariableDeclaration","scope":31,"src":"434:14:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":28,"name":"uint256","nodeType":"ElementaryTypeName","src":"434:7:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"src":"389:60:1"},"src":"375:75:1"},{"body":{"id":41,"nodeType":"Block","src":"480:35:1","statements":[{"expression":{"argumentTypes":null,"id":39,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftHandSide":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":34,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"484:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":37,"indexExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":35,"name":"tx","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":269,"src":"493:2:1","typeDescriptions":{"typeIdentifier":"t_magic_transaction","typeString":"tx"}},"id":36,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"origin","nodeType":"MemberAccess","referencedDeclaration":null,"src":"493:9:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":true,"nodeType":"IndexAccess","src":"484:19:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"Assignment","operator":"=","rightHandSide":{"argumentTypes":null,"hexValue":"3130303030","id":38,"isConstant":false,"isLValue":false,"isPure":true,"kind":"number","lValueRequested":false,"nodeType":"Literal","src":"506:5:1","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_rational_10000_by_1","typeString":"int_const 10000"},"value":"10000"},"src":"484:27:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"id":40,"nodeType":"ExpressionStatement","src":"484:27:1"}]},"documentation":null,"id":42,"implemented":true,"isConstructor":true,"isDeclaredConst":false,"modifiers":[],"name":"MetaCoin","nodeType":"FunctionDefinition","parameters":{"id":32,"nodeType":"ParameterList","parameters":[],"src":"470:2:1"},"payable":false,"returnParameters":{"id":33,"nodeType":"ParameterList","parameters":[],"src":"480:0:1"},"scope":112,"src":"453:62:1","stateMutability":"nonpayable","superFunction":null,"visibility":"public"},{"body":{"id":82,"nodeType":"Block","src":"599:178:1","statements":[{"condition":{"argumentTypes":null,"commonType":{"typeIdentifier":"t_uint256","typeString":"uint256"},"id":56,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftExpression":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":51,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"607:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":54,"indexExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":52,"name":"msg","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":259,"src":"616:3:1","typeDescriptions":{"typeIdentifier":"t_magic_message","typeString":"msg"}},"id":53,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"sender","nodeType":"MemberAccess","referencedDeclaration":null,"src":"616:10:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":false,"nodeType":"IndexAccess","src":"607:20:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"BinaryOperation","operator":"<","rightExpression":{"argumentTypes":null,"id":55,"name":"amount","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":46,"src":"630:6:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"src":"607:29:1","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"}},"falseBody":null,"id":59,"nodeType":"IfStatement","src":"603:47:1","trueBody":{"expression":{"argumentTypes":null,"hexValue":"66616c7365","id":57,"isConstant":false,"isLValue":false,"isPure":true,"kind":"bool","lValueRequested":false,"nodeType":"Literal","src":"645:5:1","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"},"value":"false"},"functionReturnParameters":50,"id":58,"nodeType":"Return","src":"638:12:1"}},{"expression":{"argumentTypes":null,"id":65,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftHandSide":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":60,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"654:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":63,"indexExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":61,"name":"msg","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":259,"src":"663:3:1","typeDescriptions":{"typeIdentifier":"t_magic_message","typeString":"msg"}},"id":62,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"sender","nodeType":"MemberAccess","referencedDeclaration":null,"src":"663:10:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":true,"nodeType":"IndexAccess","src":"654:20:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"Assignment","operator":"-=","rightHandSide":{"argumentTypes":null,"id":64,"name":"amount","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":46,"src":"678:6:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"src":"654:30:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"id":66,"nodeType":"ExpressionStatement","src":"654:30:1"},{"expression":{"argumentTypes":null,"id":71,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftHandSide":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":67,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"688:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":69,"indexExpression":{"argumentTypes":null,"id":68,"name":"receiver","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":44,"src":"697:8:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":true,"nodeType":"IndexAccess","src":"688:18:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"Assignment","operator":"+=","rightHandSide":{"argumentTypes":null,"id":70,"name":"amount","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":46,"src":"710:6:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"src":"688:28:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"id":72,"nodeType":"ExpressionStatement","src":"688:28:1"},{"expression":{"argumentTypes":null,"arguments":[{"argumentTypes":null,"expression":{"argumentTypes":null,"id":74,"name":"msg","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":259,"src":"729:3:1","typeDescriptions":{"typeIdentifier":"t_magic_message","typeString":"msg"}},"id":75,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"sender","nodeType":"MemberAccess","referencedDeclaration":null,"src":"729:10:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},{"argumentTypes":null,"id":76,"name":"receiver","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":44,"src":"741:8:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},{"argumentTypes":null,"id":77,"name":"amount","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":46,"src":"751:6:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}}],"expression":{"argumentTypes":[{"typeIdentifier":"t_address","typeString":"address"},{"typeIdentifier":"t_address","typeString":"address"},{"typeIdentifier":"t_uint256","typeString":"uint256"}],"id":73,"name":"Transfer","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":31,"src":"720:8:1","typeDescriptions":{"typeIdentifier":"t_function_event_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$","typeString":"function (address,address,uint256)"}},"id":78,"isConstant":false,"isLValue":false,"isPure":false,"kind":"functionCall","lValueRequested":false,"names":[],"nodeType":"FunctionCall","src":"720:38:1","typeDescriptions":{"typeIdentifier":"t_tuple$__$","typeString":"tuple()"}},"id":79,"nodeType":"ExpressionStatement","src":"720:38:1"},{"expression":{"argumentTypes":null,"hexValue":"74727565","id":80,"isConstant":false,"isLValue":false,"isPure":true,"kind":"bool","lValueRequested":false,"nodeType":"Literal","src":"769:4:1","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"},"value":"true"},"functionReturnParameters":50,"id":81,"nodeType":"Return","src":"762:11:1"}]},"documentation":null,"id":83,"implemented":true,"isConstructor":false,"isDeclaredConst":false,"modifiers":[],"name":"sendCoin","nodeType":"FunctionDefinition","parameters":{"id":47,"nodeType":"ParameterList","parameters":[{"constant":false,"id":44,"name":"receiver","nodeType":"VariableDeclaration","scope":83,"src":"536:16:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":43,"name":"address","nodeType":"ElementaryTypeName","src":"536:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"},{"constant":false,"id":46,"name":"amount","nodeType":"VariableDeclaration","scope":83,"src":"554:11:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":45,"name":"uint","nodeType":"ElementaryTypeName","src":"554:4:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"src":"535:31:1"},"payable":false,"returnParameters":{"id":50,"nodeType":"ParameterList","parameters":[{"constant":false,"id":49,"name":"sufficient","nodeType":"VariableDeclaration","scope":83,"src":"582:15:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"},"typeName":{"id":48,"name":"bool","nodeType":"ElementaryTypeName","src":"582:4:1","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"}},"value":null,"visibility":"internal"}],"src":"581:17:1"},"scope":112,"src":"518:259:1","stateMutability":"nonpayable","superFunction":null,"visibility":"public"},{"body":{"id":98,"nodeType":"Block","src":"844:53:1","statements":[{"expression":{"argumentTypes":null,"arguments":[{"argumentTypes":null,"arguments":[{"argumentTypes":null,"id":93,"name":"addr","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":85,"src":"885:4:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}}],"expression":{"argumentTypes":[{"typeIdentifier":"t_address","typeString":"address"}],"id":92,"name":"getBalance","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":111,"src":"874:10:1","typeDescriptions":{"typeIdentifier":"t_function_internal_view$_t_address_$returns$_t_uint256_$","typeString":"function (address) view returns (uint256)"}},"id":94,"isConstant":false,"isLValue":false,"isPure":false,"kind":"functionCall","lValueRequested":false,"names":[],"nodeType":"FunctionCall","src":"874:16:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},{"argumentTypes":null,"hexValue":"32","id":95,"isConstant":false,"isLValue":false,"isPure":true,"kind":"number","lValueRequested":false,"nodeType":"Literal","src":"891:1:1","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_rational_2_by_1","typeString":"int_const 2"},"value":"2"}],"expression":{"argumentTypes":[{"typeIdentifier":"t_uint256","typeString":"uint256"},{"typeIdentifier":"t_rational_2_by_1","typeString":"int_const 2"}],"expression":{"argumentTypes":null,"id":90,"name":"ConvertLib","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":16,"src":"855:10:1","typeDescriptions":{"typeIdentifier":"t_type$_t_contract$_ConvertLib_$16_$","typeString":"type(library ConvertLib)"}},"id":91,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"convert","nodeType":"MemberAccess","referencedDeclaration":15,"src":"855:18:1","typeDescriptions":{"typeIdentifier":"t_function_delegatecall_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$","typeString":"function (uint256,uint256) pure returns (uint256)"}},"id":96,"isConstant":false,"isLValue":false,"isPure":false,"kind":"functionCall","lValueRequested":false,"names":[],"nodeType":"FunctionCall","src":"855:38:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"functionReturnParameters":89,"id":97,"nodeType":"Return","src":"848:45:1"}]},"documentation":null,"id":99,"implemented":true,"isConstructor":false,"isDeclaredConst":true,"modifiers":[],"name":"getBalanceInEth","nodeType":"FunctionDefinition","parameters":{"id":86,"nodeType":"ParameterList","parameters":[{"constant":false,"id":85,"name":"addr","nodeType":"VariableDeclaration","scope":99,"src":"805:12:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":84,"name":"address","nodeType":"ElementaryTypeName","src":"805:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"}],"src":"804:14:1"},"payable":false,"returnParameters":{"id":89,"nodeType":"ParameterList","parameters":[{"constant":false,"id":88,"name":"","nodeType":"VariableDeclaration","scope":99,"src":"839:4:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":87,"name":"uint","nodeType":"ElementaryTypeName","src":"839:4:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"src":"838:6:1"},"scope":112,"src":"780:117:1","stateMutability":"view","superFunction":null,"visibility":"public"},{"body":{"id":110,"nodeType":"Block","src":"960:29:1","statements":[{"expression":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":106,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"971:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":108,"indexExpression":{"argumentTypes":null,"id":107,"name":"addr","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":101,"src":"980:4:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":false,"nodeType":"IndexAccess","src":"971:14:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"functionReturnParameters":105,"id":109,"nodeType":"Return","src":"964:21:1"}]},"documentation":null,"id":111,"implemented":true,"isConstructor":false,"isDeclaredConst":true,"modifiers":[],"name":"getBalance","nodeType":"FunctionDefinition","parameters":{"id":102,"nodeType":"ParameterList","parameters":[{"constant":false,"id":101,"name":"addr","nodeType":"VariableDeclaration","scope":111,"src":"920:12:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":100,"name":"address","nodeType":"ElementaryTypeName","src":"920:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"}],"src":"919:14:1"},"payable":false,"returnParameters":{"id":105,"nodeType":"ParameterList","parameters":[{"constant":false,"id":104,"name":"","nodeType":"VariableDeclaration","scope":111,"src":"954:4:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":103,"name":"uint","nodeType":"ElementaryTypeName","src":"954:4:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"src":"953:6:1"},"scope":112,"src":"900:89:1","stateMutability":"view","superFunction":null,"visibility":"public"}],"scope":113,"src":"316:675:1"}],"src":"0:992:1"},"compiler":{"name":"solc","version":"0.4.21+commit.dfe3193c.Emscripten.clang"},"networks":{"5777":{"events":{},"links":{"ConvertLib":"0x9aa712a6305d19b43b05fbdc467440f86cb767fa"},"address":"0x539ccf90f5a961e06f93ad099553243be476612c","transactionHash":"0xf458cc2605ead85d3d827ed119a5626b1d41e8a26843d2581ed42503d9912fe6"}},"schemaVersion":"2.0.0","updatedAt":"2018-05-12T06:24:50.025Z"}
-
-/***/ }),
-/* 71 */
-/***/ (function(module, exports) {
-
-module.exports = {"contractName":"VoteSystem","abi":[{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"votes","outputs":[{"name":"creater","type":"address"},{"name":"nickName","type":"string"},{"name":"theme","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"contractOwner","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"constant":false,"inputs":[{"name":"nickName","type":"string"},{"name":"theme","type":"string"},{"name":"voterAddress","type":"address[]"}],"name":"createVote","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}],"bytecode":"0x6060604052341561000f57600080fd5b33600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506107c18061005f6000396000f300606060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680635df813301461005c578063ce606ee014610197578063dd06be0e146101ec575b600080fd5b341561006757600080fd5b61007d60048080359060200190919050506102cc565b604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018060200180602001838103835285818151815260200191508051906020019080838360005b838110156100f35780820151818401526020810190506100d8565b50505050905090810190601f1680156101205780820380516001836020036101000a031916815260200191505b50838103825284818151815260200191508051906020019080838360005b8381101561015957808201518184015260208101905061013e565b50505050905090810190601f1680156101865780820380516001836020036101000a031916815260200191505b509550505050505060405180910390f35b34156101a257600080fd5b6101aa610455565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34156101f757600080fd5b6102ca600480803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509190803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919080359060200190820180359060200190808060200260200160405190810160405280939291908181526020018383602002808284378201915050505050509190505061047b565b005b6000818154811015156102db57fe5b90600052602060002090600402016000915090508060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1690806001018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103ad5780601f10610382576101008083540402835291602001916103ad565b820191906000526020600020905b81548152906001019060200180831161039057829003601f168201915b505050505090806002018054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561044b5780601f106104205761010080835404028352916020019161044b565b820191906000526020600020905b81548152906001019060200180831161042e57829003601f168201915b5050505050905083565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008080548060010182816104909190610610565b916000526020600020906004020160006060604051908101604052803373ffffffffffffffffffffffffffffffffffffffff16815260200188815260200187815250909190915060008201518160000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550602082015181600101908051906020019061053a929190610642565b506040820151816002019080519060200190610557929190610642565b50505050600090505b815181101561060a5760008060016000805490500381548110151561058157fe5b9060005260206000209060040201600301600084848151811015156105a257fe5b9060200190602002015173ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055508080600101915050610560565b50505050565b81548183558181151161063d5760040281600402836000526020600020918201910161063c91906106c2565b5b505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061068357805160ff19168380011785556106b1565b828001600101855582156106b1579182015b828111156106b0578251825591602001919060010190610695565b5b5090506106be9190610728565b5090565b61072591905b8082111561072157600080820160006101000a81549073ffffffffffffffffffffffffffffffffffffffff0219169055600182016000610708919061074d565b600282016000610718919061074d565b506004016106c8565b5090565b90565b61074a91905b8082111561074657600081600090555060010161072e565b5090565b90565b50805460018160011615610100020316600290046000825580601f106107735750610792565b601f0160209004906000526020600020908101906107919190610728565b5b505600a165627a7a72305820684462d7d296cd994e9cd4c751e90ca3a26e11bf4415dec5a8cc765ea7c308920029","deployedBytecode":"0x606060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680635df813301461005c578063ce606ee014610197578063dd06be0e146101ec575b600080fd5b341561006757600080fd5b61007d60048080359060200190919050506102cc565b604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018060200180602001838103835285818151815260200191508051906020019080838360005b838110156100f35780820151818401526020810190506100d8565b50505050905090810190601f1680156101205780820380516001836020036101000a031916815260200191505b50838103825284818151815260200191508051906020019080838360005b8381101561015957808201518184015260208101905061013e565b50505050905090810190601f1680156101865780820380516001836020036101000a031916815260200191505b509550505050505060405180910390f35b34156101a257600080fd5b6101aa610455565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34156101f757600080fd5b6102ca600480803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509190803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919080359060200190820180359060200190808060200260200160405190810160405280939291908181526020018383602002808284378201915050505050509190505061047b565b005b6000818154811015156102db57fe5b90600052602060002090600402016000915090508060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1690806001018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103ad5780601f10610382576101008083540402835291602001916103ad565b820191906000526020600020905b81548152906001019060200180831161039057829003601f168201915b505050505090806002018054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561044b5780601f106104205761010080835404028352916020019161044b565b820191906000526020600020905b81548152906001019060200180831161042e57829003601f168201915b5050505050905083565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008080548060010182816104909190610610565b916000526020600020906004020160006060604051908101604052803373ffffffffffffffffffffffffffffffffffffffff16815260200188815260200187815250909190915060008201518160000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550602082015181600101908051906020019061053a929190610642565b506040820151816002019080519060200190610557929190610642565b50505050600090505b815181101561060a5760008060016000805490500381548110151561058157fe5b9060005260206000209060040201600301600084848151811015156105a257fe5b9060200190602002015173ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055508080600101915050610560565b50505050565b81548183558181151161063d5760040281600402836000526020600020918201910161063c91906106c2565b5b505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061068357805160ff19168380011785556106b1565b828001600101855582156106b1579182015b828111156106b0578251825591602001919060010190610695565b5b5090506106be9190610728565b5090565b61072591905b8082111561072157600080820160006101000a81549073ffffffffffffffffffffffffffffffffffffffff0219169055600182016000610708919061074d565b600282016000610718919061074d565b506004016106c8565b5090565b90565b61074a91905b8082111561074657600081600090555060010161072e565b5090565b90565b50805460018160011615610100020316600290046000825580601f106107735750610792565b601f0160209004906000526020600020908101906107919190610728565b5b505600a165627a7a72305820684462d7d296cd994e9cd4c751e90ca3a26e11bf4415dec5a8cc765ea7c308920029","sourceMap":"26:548:3:-;;;236:66;;;;;;;;287:10;271:13;;:26;;;;;;;;;;;;;;;;;;26:548;;;;;;","deployedSourceMap":"26:548:3:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;174:25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;174:25:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;174:25:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;203:28;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;307:265;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;174:25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;203:28::-;;;;;;;;;;;;;:::o;307:265::-;457:6;395:5;:51;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;406:39;;;;;;;;;417:10;406:39;;;;;;429:8;406:39;;;;439:5;406:39;;;395:51;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;466:1;457:10;;452:116;473:12;:19;469:1;:23;452:116;;;556:5;507;527:1;513:5;:12;;;;:15;507:22;;;;;;;;;;;;;;;;;;;;:29;;:46;537:12;550:1;537:15;;;;;;;;;;;;;;;;;;507:46;;;;;;;;;;;;;;;;:54;;;;;;;;;;;;;;;;;;494:3;;;;;;;452:116;;;307:265;;;;:::o;26:548::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;:::i;:::-;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o","source":"pragma solidity ^0.4.17;\n\ncontract VoteSystem {\n\n  struct VoteStruct{\n    address creater;\n    string nickName;\n    string theme;\n    mapping(address => bool) voters;\n  }\n\n  VoteStruct[] public votes;\n  address public contractOwner;\n\n  function VoteSystem() public {\n    contractOwner = msg.sender;\n  }\n \n  function createVote(string nickName, string theme, address[] voterAddress) public {\n    votes.push(VoteStruct(msg.sender, nickName, theme));\n    for (uint i = 0; i < voterAddress.length; i++) {\n      votes[votes.length -1].voters[voterAddress[i]] = false;\n    }\n  }\n}","sourcePath":"/Users/edz/votetest/contracts/VoteSystem.sol","ast":{"absolutePath":"/Users/edz/votetest/contracts/VoteSystem.sol","exportedSymbols":{"VoteSystem":[246]},"id":247,"nodeType":"SourceUnit","nodes":[{"id":171,"literals":["solidity","^","0.4",".17"],"nodeType":"PragmaDirective","src":"0:24:3"},{"baseContracts":[],"contractDependencies":[],"contractKind":"contract","documentation":null,"fullyImplemented":true,"id":246,"linearizedBaseContracts":[246],"name":"VoteSystem","nodeType":"ContractDefinition","nodes":[{"canonicalName":"VoteSystem.VoteStruct","id":182,"members":[{"constant":false,"id":173,"name":"creater","nodeType":"VariableDeclaration","scope":182,"src":"74:15:3","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":172,"name":"address","nodeType":"ElementaryTypeName","src":"74:7:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"},{"constant":false,"id":175,"name":"nickName","nodeType":"VariableDeclaration","scope":182,"src":"95:15:3","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_string_storage_ptr","typeString":"string storage pointer"},"typeName":{"id":174,"name":"string","nodeType":"ElementaryTypeName","src":"95:6:3","typeDescriptions":{"typeIdentifier":"t_string_storage_ptr","typeString":"string storage pointer"}},"value":null,"visibility":"internal"},{"constant":false,"id":177,"name":"theme","nodeType":"VariableDeclaration","scope":182,"src":"116:12:3","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_string_storage_ptr","typeString":"string storage pointer"},"typeName":{"id":176,"name":"string","nodeType":"ElementaryTypeName","src":"116:6:3","typeDescriptions":{"typeIdentifier":"t_string_storage_ptr","typeString":"string storage pointer"}},"value":null,"visibility":"internal"},{"constant":false,"id":181,"name":"voters","nodeType":"VariableDeclaration","scope":182,"src":"134:31:3","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_bool_$","typeString":"mapping(address => bool)"},"typeName":{"id":180,"keyType":{"id":178,"name":"address","nodeType":"ElementaryTypeName","src":"142:7:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"nodeType":"Mapping","src":"134:24:3","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_bool_$","typeString":"mapping(address => bool)"},"valueType":{"id":179,"name":"bool","nodeType":"ElementaryTypeName","src":"153:4:3","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"}}},"value":null,"visibility":"internal"}],"name":"VoteStruct","nodeType":"StructDefinition","scope":246,"src":"51:119:3","visibility":"public"},{"constant":false,"id":185,"name":"votes","nodeType":"VariableDeclaration","scope":246,"src":"174:25:3","stateVariable":true,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_array$_t_struct$_VoteStruct_$182_storage_$dyn_storage","typeString":"struct VoteSystem.VoteStruct storage ref[] storage ref"},"typeName":{"baseType":{"contractScope":null,"id":183,"name":"VoteStruct","nodeType":"UserDefinedTypeName","referencedDeclaration":182,"src":"174:10:3","typeDescriptions":{"typeIdentifier":"t_struct$_VoteStruct_$182_storage_ptr","typeString":"struct VoteSystem.VoteStruct storage pointer"}},"id":184,"length":null,"nodeType":"ArrayTypeName","src":"174:12:3","typeDescriptions":{"typeIdentifier":"t_array$_t_struct$_VoteStruct_$182_storage_$dyn_storage_ptr","typeString":"struct VoteSystem.VoteStruct storage ref[] storage pointer"}},"value":null,"visibility":"public"},{"constant":false,"id":187,"name":"contractOwner","nodeType":"VariableDeclaration","scope":246,"src":"203:28:3","stateVariable":true,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":186,"name":"address","nodeType":"ElementaryTypeName","src":"203:7:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"public"},{"body":{"id":195,"nodeType":"Block","src":"265:37:3","statements":[{"expression":{"argumentTypes":null,"id":193,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftHandSide":{"argumentTypes":null,"id":190,"name":"contractOwner","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":187,"src":"271:13:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"nodeType":"Assignment","operator":"=","rightHandSide":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":191,"name":"msg","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":259,"src":"287:3:3","typeDescriptions":{"typeIdentifier":"t_magic_message","typeString":"msg"}},"id":192,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"sender","nodeType":"MemberAccess","referencedDeclaration":null,"src":"287:10:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"src":"271:26:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"id":194,"nodeType":"ExpressionStatement","src":"271:26:3"}]},"documentation":null,"id":196,"implemented":true,"isConstructor":true,"isDeclaredConst":false,"modifiers":[],"name":"VoteSystem","nodeType":"FunctionDefinition","parameters":{"id":188,"nodeType":"ParameterList","parameters":[],"src":"255:2:3"},"payable":false,"returnParameters":{"id":189,"nodeType":"ParameterList","parameters":[],"src":"265:0:3"},"scope":246,"src":"236:66:3","stateMutability":"nonpayable","superFunction":null,"visibility":"public"},{"body":{"id":244,"nodeType":"Block","src":"389:183:3","statements":[{"expression":{"argumentTypes":null,"arguments":[{"argumentTypes":null,"arguments":[{"argumentTypes":null,"expression":{"argumentTypes":null,"id":210,"name":"msg","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":259,"src":"417:3:3","typeDescriptions":{"typeIdentifier":"t_magic_message","typeString":"msg"}},"id":211,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"sender","nodeType":"MemberAccess","referencedDeclaration":null,"src":"417:10:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},{"argumentTypes":null,"id":212,"name":"nickName","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":198,"src":"429:8:3","typeDescriptions":{"typeIdentifier":"t_string_memory_ptr","typeString":"string memory"}},{"argumentTypes":null,"id":213,"name":"theme","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":200,"src":"439:5:3","typeDescriptions":{"typeIdentifier":"t_string_memory_ptr","typeString":"string memory"}}],"expression":{"argumentTypes":[{"typeIdentifier":"t_address","typeString":"address"},{"typeIdentifier":"t_string_memory_ptr","typeString":"string memory"},{"typeIdentifier":"t_string_memory_ptr","typeString":"string memory"}],"id":209,"name":"VoteStruct","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":182,"src":"406:10:3","typeDescriptions":{"typeIdentifier":"t_type$_t_struct$_VoteStruct_$182_storage_ptr_$","typeString":"type(struct VoteSystem.VoteStruct storage pointer)"}},"id":214,"isConstant":false,"isLValue":false,"isPure":false,"kind":"structConstructorCall","lValueRequested":false,"names":[],"nodeType":"FunctionCall","src":"406:39:3","typeDescriptions":{"typeIdentifier":"t_struct$_VoteStruct_$182_memory","typeString":"struct VoteSystem.VoteStruct memory"}}],"expression":{"argumentTypes":[{"typeIdentifier":"t_struct$_VoteStruct_$182_memory","typeString":"struct VoteSystem.VoteStruct memory"}],"expression":{"argumentTypes":null,"id":206,"name":"votes","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":185,"src":"395:5:3","typeDescriptions":{"typeIdentifier":"t_array$_t_struct$_VoteStruct_$182_storage_$dyn_storage","typeString":"struct VoteSystem.VoteStruct storage ref[] storage ref"}},"id":208,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"push","nodeType":"MemberAccess","referencedDeclaration":null,"src":"395:10:3","typeDescriptions":{"typeIdentifier":"t_function_arraypush_nonpayable$_t_struct$_VoteStruct_$182_storage_$returns$_t_uint256_$","typeString":"function (struct VoteSystem.VoteStruct storage ref) returns (uint256)"}},"id":215,"isConstant":false,"isLValue":false,"isPure":false,"kind":"functionCall","lValueRequested":false,"names":[],"nodeType":"FunctionCall","src":"395:51:3","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"id":216,"nodeType":"ExpressionStatement","src":"395:51:3"},{"body":{"id":242,"nodeType":"Block","src":"499:69:3","statements":[{"expression":{"argumentTypes":null,"id":240,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftHandSide":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":228,"name":"votes","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":185,"src":"507:5:3","typeDescriptions":{"typeIdentifier":"t_array$_t_struct$_VoteStruct_$182_storage_$dyn_storage","typeString":"struct VoteSystem.VoteStruct storage ref[] storage ref"}},"id":233,"indexExpression":{"argumentTypes":null,"commonType":{"typeIdentifier":"t_uint256","typeString":"uint256"},"id":232,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":229,"name":"votes","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":185,"src":"513:5:3","typeDescriptions":{"typeIdentifier":"t_array$_t_struct$_VoteStruct_$182_storage_$dyn_storage","typeString":"struct VoteSystem.VoteStruct storage ref[] storage ref"}},"id":230,"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":false,"memberName":"length","nodeType":"MemberAccess","referencedDeclaration":null,"src":"513:12:3","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"BinaryOperation","operator":"-","rightExpression":{"argumentTypes":null,"hexValue":"31","id":231,"isConstant":false,"isLValue":false,"isPure":true,"kind":"number","lValueRequested":false,"nodeType":"Literal","src":"527:1:3","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_rational_1_by_1","typeString":"int_const 1"},"value":"1"},"src":"513:15:3","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":false,"nodeType":"IndexAccess","src":"507:22:3","typeDescriptions":{"typeIdentifier":"t_struct$_VoteStruct_$182_storage","typeString":"struct VoteSystem.VoteStruct storage ref"}},"id":234,"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":false,"memberName":"voters","nodeType":"MemberAccess","referencedDeclaration":181,"src":"507:29:3","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_bool_$","typeString":"mapping(address => bool)"}},"id":238,"indexExpression":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":235,"name":"voterAddress","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":203,"src":"537:12:3","typeDescriptions":{"typeIdentifier":"t_array$_t_address_$dyn_memory_ptr","typeString":"address[] memory"}},"id":237,"indexExpression":{"argumentTypes":null,"id":236,"name":"i","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":218,"src":"550:1:3","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":false,"nodeType":"IndexAccess","src":"537:15:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":true,"nodeType":"IndexAccess","src":"507:46:3","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"}},"nodeType":"Assignment","operator":"=","rightHandSide":{"argumentTypes":null,"hexValue":"66616c7365","id":239,"isConstant":false,"isLValue":false,"isPure":true,"kind":"bool","lValueRequested":false,"nodeType":"Literal","src":"556:5:3","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"},"value":"false"},"src":"507:54:3","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"}},"id":241,"nodeType":"ExpressionStatement","src":"507:54:3"}]},"condition":{"argumentTypes":null,"commonType":{"typeIdentifier":"t_uint256","typeString":"uint256"},"id":224,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftExpression":{"argumentTypes":null,"id":221,"name":"i","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":218,"src":"469:1:3","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"BinaryOperation","operator":"<","rightExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":222,"name":"voterAddress","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":203,"src":"473:12:3","typeDescriptions":{"typeIdentifier":"t_array$_t_address_$dyn_memory_ptr","typeString":"address[] memory"}},"id":223,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"length","nodeType":"MemberAccess","referencedDeclaration":null,"src":"473:19:3","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"src":"469:23:3","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"}},"id":243,"initializationExpression":{"assignments":[218],"declarations":[{"constant":false,"id":218,"name":"i","nodeType":"VariableDeclaration","scope":245,"src":"457:6:3","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":217,"name":"uint","nodeType":"ElementaryTypeName","src":"457:4:3","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"id":220,"initialValue":{"argumentTypes":null,"hexValue":"30","id":219,"isConstant":false,"isLValue":false,"isPure":true,"kind":"number","lValueRequested":false,"nodeType":"Literal","src":"466:1:3","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_rational_0_by_1","typeString":"int_const 0"},"value":"0"},"nodeType":"VariableDeclarationStatement","src":"457:10:3"},"loopExpression":{"expression":{"argumentTypes":null,"id":226,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"nodeType":"UnaryOperation","operator":"++","prefix":false,"src":"494:3:3","subExpression":{"argumentTypes":null,"id":225,"name":"i","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":218,"src":"494:1:3","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"id":227,"nodeType":"ExpressionStatement","src":"494:3:3"},"nodeType":"ForStatement","src":"452:116:3"}]},"documentation":null,"id":245,"implemented":true,"isConstructor":false,"isDeclaredConst":false,"modifiers":[],"name":"createVote","nodeType":"FunctionDefinition","parameters":{"id":204,"nodeType":"ParameterList","parameters":[{"constant":false,"id":198,"name":"nickName","nodeType":"VariableDeclaration","scope":245,"src":"327:15:3","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_string_memory_ptr","typeString":"string memory"},"typeName":{"id":197,"name":"string","nodeType":"ElementaryTypeName","src":"327:6:3","typeDescriptions":{"typeIdentifier":"t_string_storage_ptr","typeString":"string storage pointer"}},"value":null,"visibility":"internal"},{"constant":false,"id":200,"name":"theme","nodeType":"VariableDeclaration","scope":245,"src":"344:12:3","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_string_memory_ptr","typeString":"string memory"},"typeName":{"id":199,"name":"string","nodeType":"ElementaryTypeName","src":"344:6:3","typeDescriptions":{"typeIdentifier":"t_string_storage_ptr","typeString":"string storage pointer"}},"value":null,"visibility":"internal"},{"constant":false,"id":203,"name":"voterAddress","nodeType":"VariableDeclaration","scope":245,"src":"358:22:3","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_array$_t_address_$dyn_memory_ptr","typeString":"address[] memory"},"typeName":{"baseType":{"id":201,"name":"address","nodeType":"ElementaryTypeName","src":"358:7:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"id":202,"length":null,"nodeType":"ArrayTypeName","src":"358:9:3","typeDescriptions":{"typeIdentifier":"t_array$_t_address_$dyn_storage_ptr","typeString":"address[] storage pointer"}},"value":null,"visibility":"internal"}],"src":"326:55:3"},"payable":false,"returnParameters":{"id":205,"nodeType":"ParameterList","parameters":[],"src":"389:0:3"},"scope":246,"src":"307:265:3","stateMutability":"nonpayable","superFunction":null,"visibility":"public"}],"scope":247,"src":"26:548:3"}],"src":"0:574:3"},"legacyAST":{"absolutePath":"/Users/edz/votetest/contracts/VoteSystem.sol","exportedSymbols":{"VoteSystem":[246]},"id":247,"nodeType":"SourceUnit","nodes":[{"id":171,"literals":["solidity","^","0.4",".17"],"nodeType":"PragmaDirective","src":"0:24:3"},{"baseContracts":[],"contractDependencies":[],"contractKind":"contract","documentation":null,"fullyImplemented":true,"id":246,"linearizedBaseContracts":[246],"name":"VoteSystem","nodeType":"ContractDefinition","nodes":[{"canonicalName":"VoteSystem.VoteStruct","id":182,"members":[{"constant":false,"id":173,"name":"creater","nodeType":"VariableDeclaration","scope":182,"src":"74:15:3","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":172,"name":"address","nodeType":"ElementaryTypeName","src":"74:7:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"},{"constant":false,"id":175,"name":"nickName","nodeType":"VariableDeclaration","scope":182,"src":"95:15:3","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_string_storage_ptr","typeString":"string storage pointer"},"typeName":{"id":174,"name":"string","nodeType":"ElementaryTypeName","src":"95:6:3","typeDescriptions":{"typeIdentifier":"t_string_storage_ptr","typeString":"string storage pointer"}},"value":null,"visibility":"internal"},{"constant":false,"id":177,"name":"theme","nodeType":"VariableDeclaration","scope":182,"src":"116:12:3","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_string_storage_ptr","typeString":"string storage pointer"},"typeName":{"id":176,"name":"string","nodeType":"ElementaryTypeName","src":"116:6:3","typeDescriptions":{"typeIdentifier":"t_string_storage_ptr","typeString":"string storage pointer"}},"value":null,"visibility":"internal"},{"constant":false,"id":181,"name":"voters","nodeType":"VariableDeclaration","scope":182,"src":"134:31:3","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_bool_$","typeString":"mapping(address => bool)"},"typeName":{"id":180,"keyType":{"id":178,"name":"address","nodeType":"ElementaryTypeName","src":"142:7:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"nodeType":"Mapping","src":"134:24:3","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_bool_$","typeString":"mapping(address => bool)"},"valueType":{"id":179,"name":"bool","nodeType":"ElementaryTypeName","src":"153:4:3","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"}}},"value":null,"visibility":"internal"}],"name":"VoteStruct","nodeType":"StructDefinition","scope":246,"src":"51:119:3","visibility":"public"},{"constant":false,"id":185,"name":"votes","nodeType":"VariableDeclaration","scope":246,"src":"174:25:3","stateVariable":true,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_array$_t_struct$_VoteStruct_$182_storage_$dyn_storage","typeString":"struct VoteSystem.VoteStruct storage ref[] storage ref"},"typeName":{"baseType":{"contractScope":null,"id":183,"name":"VoteStruct","nodeType":"UserDefinedTypeName","referencedDeclaration":182,"src":"174:10:3","typeDescriptions":{"typeIdentifier":"t_struct$_VoteStruct_$182_storage_ptr","typeString":"struct VoteSystem.VoteStruct storage pointer"}},"id":184,"length":null,"nodeType":"ArrayTypeName","src":"174:12:3","typeDescriptions":{"typeIdentifier":"t_array$_t_struct$_VoteStruct_$182_storage_$dyn_storage_ptr","typeString":"struct VoteSystem.VoteStruct storage ref[] storage pointer"}},"value":null,"visibility":"public"},{"constant":false,"id":187,"name":"contractOwner","nodeType":"VariableDeclaration","scope":246,"src":"203:28:3","stateVariable":true,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":186,"name":"address","nodeType":"ElementaryTypeName","src":"203:7:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"public"},{"body":{"id":195,"nodeType":"Block","src":"265:37:3","statements":[{"expression":{"argumentTypes":null,"id":193,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftHandSide":{"argumentTypes":null,"id":190,"name":"contractOwner","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":187,"src":"271:13:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"nodeType":"Assignment","operator":"=","rightHandSide":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":191,"name":"msg","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":259,"src":"287:3:3","typeDescriptions":{"typeIdentifier":"t_magic_message","typeString":"msg"}},"id":192,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"sender","nodeType":"MemberAccess","referencedDeclaration":null,"src":"287:10:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"src":"271:26:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"id":194,"nodeType":"ExpressionStatement","src":"271:26:3"}]},"documentation":null,"id":196,"implemented":true,"isConstructor":true,"isDeclaredConst":false,"modifiers":[],"name":"VoteSystem","nodeType":"FunctionDefinition","parameters":{"id":188,"nodeType":"ParameterList","parameters":[],"src":"255:2:3"},"payable":false,"returnParameters":{"id":189,"nodeType":"ParameterList","parameters":[],"src":"265:0:3"},"scope":246,"src":"236:66:3","stateMutability":"nonpayable","superFunction":null,"visibility":"public"},{"body":{"id":244,"nodeType":"Block","src":"389:183:3","statements":[{"expression":{"argumentTypes":null,"arguments":[{"argumentTypes":null,"arguments":[{"argumentTypes":null,"expression":{"argumentTypes":null,"id":210,"name":"msg","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":259,"src":"417:3:3","typeDescriptions":{"typeIdentifier":"t_magic_message","typeString":"msg"}},"id":211,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"sender","nodeType":"MemberAccess","referencedDeclaration":null,"src":"417:10:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},{"argumentTypes":null,"id":212,"name":"nickName","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":198,"src":"429:8:3","typeDescriptions":{"typeIdentifier":"t_string_memory_ptr","typeString":"string memory"}},{"argumentTypes":null,"id":213,"name":"theme","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":200,"src":"439:5:3","typeDescriptions":{"typeIdentifier":"t_string_memory_ptr","typeString":"string memory"}}],"expression":{"argumentTypes":[{"typeIdentifier":"t_address","typeString":"address"},{"typeIdentifier":"t_string_memory_ptr","typeString":"string memory"},{"typeIdentifier":"t_string_memory_ptr","typeString":"string memory"}],"id":209,"name":"VoteStruct","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":182,"src":"406:10:3","typeDescriptions":{"typeIdentifier":"t_type$_t_struct$_VoteStruct_$182_storage_ptr_$","typeString":"type(struct VoteSystem.VoteStruct storage pointer)"}},"id":214,"isConstant":false,"isLValue":false,"isPure":false,"kind":"structConstructorCall","lValueRequested":false,"names":[],"nodeType":"FunctionCall","src":"406:39:3","typeDescriptions":{"typeIdentifier":"t_struct$_VoteStruct_$182_memory","typeString":"struct VoteSystem.VoteStruct memory"}}],"expression":{"argumentTypes":[{"typeIdentifier":"t_struct$_VoteStruct_$182_memory","typeString":"struct VoteSystem.VoteStruct memory"}],"expression":{"argumentTypes":null,"id":206,"name":"votes","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":185,"src":"395:5:3","typeDescriptions":{"typeIdentifier":"t_array$_t_struct$_VoteStruct_$182_storage_$dyn_storage","typeString":"struct VoteSystem.VoteStruct storage ref[] storage ref"}},"id":208,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"push","nodeType":"MemberAccess","referencedDeclaration":null,"src":"395:10:3","typeDescriptions":{"typeIdentifier":"t_function_arraypush_nonpayable$_t_struct$_VoteStruct_$182_storage_$returns$_t_uint256_$","typeString":"function (struct VoteSystem.VoteStruct storage ref) returns (uint256)"}},"id":215,"isConstant":false,"isLValue":false,"isPure":false,"kind":"functionCall","lValueRequested":false,"names":[],"nodeType":"FunctionCall","src":"395:51:3","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"id":216,"nodeType":"ExpressionStatement","src":"395:51:3"},{"body":{"id":242,"nodeType":"Block","src":"499:69:3","statements":[{"expression":{"argumentTypes":null,"id":240,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftHandSide":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":228,"name":"votes","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":185,"src":"507:5:3","typeDescriptions":{"typeIdentifier":"t_array$_t_struct$_VoteStruct_$182_storage_$dyn_storage","typeString":"struct VoteSystem.VoteStruct storage ref[] storage ref"}},"id":233,"indexExpression":{"argumentTypes":null,"commonType":{"typeIdentifier":"t_uint256","typeString":"uint256"},"id":232,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":229,"name":"votes","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":185,"src":"513:5:3","typeDescriptions":{"typeIdentifier":"t_array$_t_struct$_VoteStruct_$182_storage_$dyn_storage","typeString":"struct VoteSystem.VoteStruct storage ref[] storage ref"}},"id":230,"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":false,"memberName":"length","nodeType":"MemberAccess","referencedDeclaration":null,"src":"513:12:3","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"BinaryOperation","operator":"-","rightExpression":{"argumentTypes":null,"hexValue":"31","id":231,"isConstant":false,"isLValue":false,"isPure":true,"kind":"number","lValueRequested":false,"nodeType":"Literal","src":"527:1:3","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_rational_1_by_1","typeString":"int_const 1"},"value":"1"},"src":"513:15:3","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":false,"nodeType":"IndexAccess","src":"507:22:3","typeDescriptions":{"typeIdentifier":"t_struct$_VoteStruct_$182_storage","typeString":"struct VoteSystem.VoteStruct storage ref"}},"id":234,"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":false,"memberName":"voters","nodeType":"MemberAccess","referencedDeclaration":181,"src":"507:29:3","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_bool_$","typeString":"mapping(address => bool)"}},"id":238,"indexExpression":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":235,"name":"voterAddress","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":203,"src":"537:12:3","typeDescriptions":{"typeIdentifier":"t_array$_t_address_$dyn_memory_ptr","typeString":"address[] memory"}},"id":237,"indexExpression":{"argumentTypes":null,"id":236,"name":"i","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":218,"src":"550:1:3","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":false,"nodeType":"IndexAccess","src":"537:15:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":true,"nodeType":"IndexAccess","src":"507:46:3","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"}},"nodeType":"Assignment","operator":"=","rightHandSide":{"argumentTypes":null,"hexValue":"66616c7365","id":239,"isConstant":false,"isLValue":false,"isPure":true,"kind":"bool","lValueRequested":false,"nodeType":"Literal","src":"556:5:3","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"},"value":"false"},"src":"507:54:3","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"}},"id":241,"nodeType":"ExpressionStatement","src":"507:54:3"}]},"condition":{"argumentTypes":null,"commonType":{"typeIdentifier":"t_uint256","typeString":"uint256"},"id":224,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftExpression":{"argumentTypes":null,"id":221,"name":"i","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":218,"src":"469:1:3","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"BinaryOperation","operator":"<","rightExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":222,"name":"voterAddress","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":203,"src":"473:12:3","typeDescriptions":{"typeIdentifier":"t_array$_t_address_$dyn_memory_ptr","typeString":"address[] memory"}},"id":223,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"length","nodeType":"MemberAccess","referencedDeclaration":null,"src":"473:19:3","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"src":"469:23:3","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"}},"id":243,"initializationExpression":{"assignments":[218],"declarations":[{"constant":false,"id":218,"name":"i","nodeType":"VariableDeclaration","scope":245,"src":"457:6:3","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":217,"name":"uint","nodeType":"ElementaryTypeName","src":"457:4:3","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"id":220,"initialValue":{"argumentTypes":null,"hexValue":"30","id":219,"isConstant":false,"isLValue":false,"isPure":true,"kind":"number","lValueRequested":false,"nodeType":"Literal","src":"466:1:3","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_rational_0_by_1","typeString":"int_const 0"},"value":"0"},"nodeType":"VariableDeclarationStatement","src":"457:10:3"},"loopExpression":{"expression":{"argumentTypes":null,"id":226,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"nodeType":"UnaryOperation","operator":"++","prefix":false,"src":"494:3:3","subExpression":{"argumentTypes":null,"id":225,"name":"i","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":218,"src":"494:1:3","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"id":227,"nodeType":"ExpressionStatement","src":"494:3:3"},"nodeType":"ForStatement","src":"452:116:3"}]},"documentation":null,"id":245,"implemented":true,"isConstructor":false,"isDeclaredConst":false,"modifiers":[],"name":"createVote","nodeType":"FunctionDefinition","parameters":{"id":204,"nodeType":"ParameterList","parameters":[{"constant":false,"id":198,"name":"nickName","nodeType":"VariableDeclaration","scope":245,"src":"327:15:3","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_string_memory_ptr","typeString":"string memory"},"typeName":{"id":197,"name":"string","nodeType":"ElementaryTypeName","src":"327:6:3","typeDescriptions":{"typeIdentifier":"t_string_storage_ptr","typeString":"string storage pointer"}},"value":null,"visibility":"internal"},{"constant":false,"id":200,"name":"theme","nodeType":"VariableDeclaration","scope":245,"src":"344:12:3","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_string_memory_ptr","typeString":"string memory"},"typeName":{"id":199,"name":"string","nodeType":"ElementaryTypeName","src":"344:6:3","typeDescriptions":{"typeIdentifier":"t_string_storage_ptr","typeString":"string storage pointer"}},"value":null,"visibility":"internal"},{"constant":false,"id":203,"name":"voterAddress","nodeType":"VariableDeclaration","scope":245,"src":"358:22:3","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_array$_t_address_$dyn_memory_ptr","typeString":"address[] memory"},"typeName":{"baseType":{"id":201,"name":"address","nodeType":"ElementaryTypeName","src":"358:7:3","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"id":202,"length":null,"nodeType":"ArrayTypeName","src":"358:9:3","typeDescriptions":{"typeIdentifier":"t_array$_t_address_$dyn_storage_ptr","typeString":"address[] storage pointer"}},"value":null,"visibility":"internal"}],"src":"326:55:3"},"payable":false,"returnParameters":{"id":205,"nodeType":"ParameterList","parameters":[],"src":"389:0:3"},"scope":246,"src":"307:265:3","stateMutability":"nonpayable","superFunction":null,"visibility":"public"}],"scope":247,"src":"26:548:3"}],"src":"0:574:3"},"compiler":{"name":"solc","version":"0.4.21+commit.dfe3193c.Emscripten.clang"},"networks":{"5777":{"events":{},"links":{},"address":"0xff7a98807c03440b8993d86e775a09a7a3b877bf","transactionHash":"0xf27f28b26ea813bad5598675d4ff3b4b3499036536a9bdd08ebd42c0a4648a62"}},"schemaVersion":"2.0.0","updatedAt":"2018-05-12T06:24:50.275Z"}
-
-/***/ }),
-/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -38331,16 +38319,16 @@ return jQuery;
 
 
 /***/ }),
-/* 73 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(100);
+var content = __webpack_require__(98);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(111)(content, {});
+var update = __webpack_require__(109)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -38357,11 +38345,11 @@ if(false) {
 }
 
 /***/ }),
-/* 74 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Schema = __webpack_require__(147);
-var Contract = __webpack_require__(151);
+var Schema = __webpack_require__(145);
+var Contract = __webpack_require__(149);
 
 var contract = function(options) {
   options = Schema.normalizeOptions(options);
@@ -38427,10 +38415,10 @@ if (typeof window !== "undefined") {
 
 
 /***/ }),
-/* 75 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Web3 = __webpack_require__(199);
+var Web3 = __webpack_require__(197);
 
 // dont override global variable
 if (typeof window !== 'undefined' && typeof window.Web3 === 'undefined') {
@@ -38441,21 +38429,17 @@ module.exports = Web3;
 
 
 /***/ }),
-/* 76 */
+/* 74 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__stylesheets_app_css__ = __webpack_require__(73);
+/* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__stylesheets_app_css__ = __webpack_require__(71);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__stylesheets_app_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__stylesheets_app_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_web3__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_web3__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_web3___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_web3__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_truffle_contract__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_truffle_contract__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_truffle_contract___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_truffle_contract__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__build_contracts_MetaCoin_json__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__build_contracts_MetaCoin_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__build_contracts_MetaCoin_json__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__build_contracts_VoteSystem_json__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__build_contracts_VoteSystem_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__build_contracts_VoteSystem_json__);
 // Import the page's CSS. Webpack will know what to do with it.
 
 // Import libraries we need.
@@ -38463,108 +38447,113 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 // Import our contract artifacts and turn them into usable abstractions.
-
-
+// import metacoin_artifacts from '../../build/contracts/MetaCoin.json'
+// import votes_artifacts from '../../build/contracts/VoteSystem.json'
 // MetaCoin is our usable abstraction, which we'll use through the code below.
-var MetaCoin = __WEBPACK_IMPORTED_MODULE_2_truffle_contract___default()(__WEBPACK_IMPORTED_MODULE_3__build_contracts_MetaCoin_json___default.a);
-var VoteSystem = __WEBPACK_IMPORTED_MODULE_2_truffle_contract___default()(__WEBPACK_IMPORTED_MODULE_4__build_contracts_VoteSystem_json___default.a);
+// var MetaCoin = contract(metacoin_artifacts);
+// var VoteSystem = contract(votes_artifacts);
 // The following code is simple to show off interacting with your contracts.
 // As your needs grow you will likely need to change its form and structure.
 // For application bootstrapping, check out window.addEventListener below.
 var accounts;
 var account;
-$("body").append("<div>hello world</div>")
 window.App = {
   start: function() {
+    $("body").append("<div>hello world</div>")
     var self = this;
 
     // Bootstrap the MetaCoin abstraction for Use.
-    MetaCoin.setProvider(web3.currentProvider);
-    VoteSystem.setProvider(web3.currentProvider);
-    // Get the initial account balance so it can be displayed.
-    web3.eth.getAccounts(function(err, accs) {
-      if (err != null) {
-        alert("There was an error fetching your accounts.");
-        return;
-      }
+    // MetaCoin.setProvider(web3.currentProvider);
+    // VoteSystem.setProvider(web3.currentProvider);
+    // // Get the initial account balance so it can be displayed.
+    // web3.eth.getAccounts(function(err, accs) {
+    //   if (err != null) {
+    //     alert("There was an error fetching your accounts.");
+    //     return;
+    //   }
 
-      if (accs.length == 0) {
-        alert("Couldn't get any accounts! Make sure your Ethereum client is configured correctly.");
-        return;
-      }
+    //   if (accs.length == 0) {
+    //     alert("Couldn't get any accounts! Make sure your Ethereum client is configured correctly.");
+    //     return;
+    //   }
 
-      accounts = accs;
-      account = accounts[0];
+    //   accounts = accs;
+    //   account = accounts[0];
 
-      self.refreshBalance();
-    });
+    //   self.refreshBalance();
+    // });
   },
   createVote: function(params){
-    console.log(params)
-    alert(params)
+    
   },
-  setStatus: function(message) {
+  getResult: function() {
+
   },
-  refreshBalance: function() {
-    var self = this;
+  vote: function(params) {
 
-    var meta;
-    MetaCoin.deployed().then(function(instance) {
-      meta = instance;
-      return meta.getBalance.call(account, {from: account});
-    }).then(function(value) {
-      var balance_element = document.getElementById("balance");
-      balance_element.innerHTML = value.valueOf();
-    }).catch(function(e) {
-      console.log(e);
-      self.setStatus("Error getting balance; see log.");
-    });
   },
-  createVotes: function() {
-    var self = this;
-    var nickName = 'firstVote';
-    var theme = 'firstTheme';
-    var voterAddresses = ['0x36DC69A3cDF51De25dE600110e5fD16811906FB3','0x31107c95C62FE161Bce091716879e28d84e2A484'];
-    VoteSystem.deployed().then(function(instance) {
-      return instance.createVote(nickName, theme, voterAddresses, {from: account});
-    }).catch(function(e) {
-      console.log(e);
-      self.setStatus("Error sending coin; see log.");
-    });
-  },
-  getVotes: function() {
-    var self = this;
+  // setStatus: function(message) {
+  // },
+  // refreshBalance: function() {
+  //   // var self = this;
 
-    var meta;
-    VoteSystem.deployed().then(function(instance) {
-      meta = instance;
-      return meta.votes.call({from: account});
-    }).catch(function(e) {
-      console.log(e);
-      self.setStatus("Error getting balance; see log.");
-    });
-  },
-  sendCoin: function() {
-    var self = this;
+  //   // var meta;
+  //   // MetaCoin.deployed().then(function(instance) {
+  //   //   meta = instance;
+  //   //   return meta.getBalance.call(account, {from: account});
+  //   // }).then(function(value) {
+  //   //   var balance_element = document.getElementById("balance");
+  //   //   balance_element.innerHTML = value.valueOf();
+  //   // }).catch(function(e) {
+  //   //   console.log(e);
+  //   //   self.setStatus("Error getting balance; see log.");
+  //   // });
+  // },
+  // createVotes: function() {
+  //   var self = this;
+  //   var nickName = 'firstVote';
+  //   var theme = 'firstTheme';
+  //   var voterAddresses = ['0x36DC69A3cDF51De25dE600110e5fD16811906FB3','0x31107c95C62FE161Bce091716879e28d84e2A484'];
+  //   VoteSystem.deployed().then(function(instance) {
+  //     return instance.createVote(nickName, theme, voterAddresses, {from: account});
+  //   }).catch(function(e) {
+  //     console.log(e);
+  //     self.setStatus("Error sending coin; see log.");
+  //   });
+  // },
+  // getVotes: function() {
+  //   var self = this;
 
-    var amount = parseInt(document.getElementById("amount").value);
-    var receiver = document.getElementById("receiver").value;
+  //   var meta;
+  //   VoteSystem.deployed().then(function(instance) {
+  //     meta = instance;
+  //     return meta.votes.call({from: account});
+  //   }).catch(function(e) {
+  //     console.log(e);
+  //     self.setStatus("Error getting balance; see log.");
+  //   });
+  // },
+  // sendCoin: function() {
+  //   var self = this;
 
-    this.setStatus("Initiating transaction... (please wait)");
+  //   var amount = parseInt(document.getElementById("amount").value);
+  //   var receiver = document.getElementById("receiver").value;
 
-    var meta;
-    MetaCoin.deployed().then(function(instance) {
-      meta = instance;
-      return meta.sendCoin(receiver, amount, {from: account});
-    }).then(function(res) {
-      console.log(res)
-      self.setStatus("Transaction complete!");
-      self.refreshBalance();
-    }).catch(function(e) {
-      console.log(e);
-      self.setStatus("Error sending coin; see log.");
-    });
-  }
+  //   this.setStatus("Initiating transaction... (please wait)");
+
+  //   var meta;
+  //   MetaCoin.deployed().then(function(instance) {
+  //     meta = instance;
+  //     return meta.sendCoin(receiver, amount, {from: account});
+  //   }).then(function(res) {
+  //     console.log(res)
+  //     self.setStatus("Transaction complete!");
+  //     self.refreshBalance();
+  //   }).catch(function(e) {
+  //     console.log(e);
+  //     self.setStatus("Error sending coin; see log.");
+  //   });
+  // }
 };
 
 window.addEventListener('load', function() {
@@ -38582,10 +38571,10 @@ window.addEventListener('load', function() {
   App.start();
 });
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(72)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(70)))
 
 /***/ }),
-/* 77 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38743,7 +38732,7 @@ function fromByteArray (uint8) {
 
 
 /***/ }),
-/* 78 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -38980,7 +38969,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 79 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory) {
@@ -39134,7 +39123,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 80 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -39205,7 +39194,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 81 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory) {
@@ -39286,7 +39275,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 82 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -39369,7 +39358,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 83 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -39490,7 +39479,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 84 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -39553,7 +39542,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 85 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -39598,7 +39587,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 86 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -39657,7 +39646,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 87 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -39711,7 +39700,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 88 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -39760,7 +39749,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 89 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -39805,7 +39794,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 90 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -39840,7 +39829,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 91 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -39890,7 +39879,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 92 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -40040,7 +40029,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 93 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -40235,7 +40224,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 94 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -40432,7 +40421,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 95 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -40576,7 +40565,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 96 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory) {
@@ -40848,7 +40837,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 97 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -40933,7 +40922,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 98 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -41021,7 +41010,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 99 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -41796,10 +41785,10 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 100 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(101)();
+exports = module.exports = __webpack_require__(99)();
 // imports
 
 
@@ -41810,7 +41799,7 @@ exports.push([module.i, "body {\n  margin-left: 25%;\n  margin-right: 25%;\n  ma
 
 
 /***/ }),
-/* 101 */
+/* 99 */
 /***/ (function(module, exports) {
 
 /*
@@ -41866,7 +41855,7 @@ module.exports = function() {
 
 
 /***/ }),
-/* 102 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41874,7 +41863,7 @@ module.exports = function() {
 
 /* eslint-disable */
 
-var utils = __webpack_require__(103);
+var utils = __webpack_require__(101);
 var uint256Coder = utils.uint256Coder;
 var coderBoolean = utils.coderBoolean;
 var coderFixedBytes = utils.coderFixedBytes;
@@ -42006,15 +41995,15 @@ module.exports = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(31).Buffer))
 
 /***/ }),
-/* 103 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(Buffer) {
 
 var BN = __webpack_require__(56);
-var numberToBN = __webpack_require__(108);
-var keccak256 = __webpack_require__(107).keccak_256;
+var numberToBN = __webpack_require__(106);
+var keccak256 = __webpack_require__(105).keccak_256;
 
 // from ethereumjs-util
 function stripZeros(aInput) {
@@ -42430,7 +42419,7 @@ module.exports = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(31).Buffer))
 
 /***/ }),
-/* 104 */
+/* 102 */
 /***/ (function(module, exports) {
 
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
@@ -42520,7 +42509,7 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
 
 
 /***/ }),
-/* 105 */
+/* 103 */
 /***/ (function(module, exports) {
 
 /**
@@ -42539,7 +42528,7 @@ module.exports = function isHexPrefixed(str) {
 
 
 /***/ }),
-/* 106 */
+/* 104 */
 /***/ (function(module, exports) {
 
 var toString = {}.toString;
@@ -42550,7 +42539,7 @@ module.exports = Array.isArray || function (arr) {
 
 
 /***/ }),
-/* 107 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(process, global) {/**
@@ -43025,14 +43014,14 @@ module.exports = Array.isArray || function (arr) {
   }
 }(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(109), __webpack_require__(47)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(107), __webpack_require__(47)))
 
 /***/ }),
-/* 108 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var BN = __webpack_require__(56);
-var stripHexPrefix = __webpack_require__(110);
+var stripHexPrefix = __webpack_require__(108);
 
 /**
  * Returns a BN object, converts a number value to a BN
@@ -43072,7 +43061,7 @@ module.exports = function numberToBN(arg) {
 
 
 /***/ }),
-/* 109 */
+/* 107 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -43262,10 +43251,10 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 110 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isHexPrefixed = __webpack_require__(105);
+var isHexPrefixed = __webpack_require__(103);
 
 /**
  * Removes '0x' from a given `String` is present
@@ -43282,7 +43271,7 @@ module.exports = function stripHexPrefix(str) {
 
 
 /***/ }),
-/* 111 */
+/* 109 */
 /***/ (function(module, exports) {
 
 /*
@@ -43534,12 +43523,12 @@ function updateLink(linkElement, obj) {
 
 
 /***/ }),
-/* 112 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // TODO: remove web3 requirement
 // Call functions directly on the provider.
-var Web3 = __webpack_require__(113);
+var Web3 = __webpack_require__(111);
 
 var Blockchain = {
   parse: function(uri) {
@@ -43601,10 +43590,10 @@ module.exports = Blockchain;
 
 
 /***/ }),
-/* 113 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Web3 = __webpack_require__(128);
+var Web3 = __webpack_require__(126);
 
 // dont override global variable
 if (typeof window !== 'undefined' && typeof window.Web3 === 'undefined') {
@@ -43615,25 +43604,25 @@ module.exports = Web3;
 
 
 /***/ }),
-/* 114 */
+/* 112 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"name","outputs":[{"name":"o_name","type":"bytes32"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"owner","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"content","outputs":[{"name":"","type":"bytes32"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"addr","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"reserve","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"subRegistrar","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_newOwner","type":"address"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_registrar","type":"address"}],"name":"setSubRegistrar","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"Registrar","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_a","type":"address"},{"name":"_primary","type":"bool"}],"name":"setAddress","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_content","type":"bytes32"}],"name":"setContent","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"disown","outputs":[],"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_name","type":"bytes32"},{"indexed":false,"name":"_winner","type":"address"}],"name":"AuctionEnded","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_name","type":"bytes32"},{"indexed":false,"name":"_bidder","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"NewBid","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"}],"name":"Changed","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"},{"indexed":true,"name":"addr","type":"address"}],"name":"PrimaryChanged","type":"event"}]
 
 /***/ }),
-/* 115 */
+/* 113 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"owner","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_refund","type":"address"}],"name":"disown","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"addr","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"reserve","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_newOwner","type":"address"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_a","type":"address"}],"name":"setAddr","outputs":[],"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"}],"name":"Changed","type":"event"}]
 
 /***/ }),
-/* 116 */
+/* 114 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":false,"inputs":[{"name":"from","type":"bytes32"},{"name":"to","type":"address"},{"name":"value","type":"uint256"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"from","type":"bytes32"},{"name":"to","type":"address"},{"name":"indirectId","type":"bytes32"},{"name":"value","type":"uint256"}],"name":"icapTransfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"to","type":"bytes32"}],"name":"deposit","outputs":[],"payable":true,"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"AnonymousDeposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":true,"name":"to","type":"bytes32"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Deposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"bytes32"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"bytes32"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"indirectId","type":"bytes32"},{"indexed":false,"name":"value","type":"uint256"}],"name":"IcapTransfer","type":"event"}]
 
 /***/ }),
-/* 117 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -43665,7 +43654,7 @@ module.exports = SolidityTypeAddress;
 
 
 /***/ }),
-/* 118 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -43697,7 +43686,7 @@ module.exports = SolidityTypeBool;
 
 
 /***/ }),
-/* 119 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -43732,7 +43721,7 @@ module.exports = SolidityTypeBytes;
 
 
 /***/ }),
-/* 120 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -43758,7 +43747,7 @@ module.exports = SolidityTypeDynamicBytes;
 
 
 /***/ }),
-/* 121 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -43796,7 +43785,7 @@ module.exports = SolidityTypeInt;
 
 
 /***/ }),
-/* 122 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -43834,7 +43823,7 @@ module.exports = SolidityTypeReal;
 
 
 /***/ }),
-/* 123 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -43860,7 +43849,7 @@ module.exports = SolidityTypeString;
 
 
 /***/ }),
-/* 124 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -43898,7 +43887,7 @@ module.exports = SolidityTypeUInt;
 
 
 /***/ }),
-/* 125 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -43936,7 +43925,7 @@ module.exports = SolidityTypeUReal;
 
 
 /***/ }),
-/* 126 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43952,13 +43941,13 @@ if (typeof XMLHttpRequest === 'undefined') {
 
 
 /***/ }),
-/* 127 */
+/* 125 */
 /***/ (function(module, exports) {
 
 module.exports = {"version":"0.18.4"}
 
 /***/ }),
-/* 128 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -43988,23 +43977,23 @@ module.exports = {"version":"0.18.4"}
  * @date 2014
  */
 
-var RequestManager = __webpack_require__(143);
+var RequestManager = __webpack_require__(141);
 var Iban = __webpack_require__(36);
-var Eth = __webpack_require__(137);
-var DB = __webpack_require__(136);
-var Shh = __webpack_require__(140);
-var Net = __webpack_require__(138);
-var Personal = __webpack_require__(139);
-var Swarm = __webpack_require__(141);
-var Settings = __webpack_require__(144);
-var version = __webpack_require__(127);
+var Eth = __webpack_require__(135);
+var DB = __webpack_require__(134);
+var Shh = __webpack_require__(138);
+var Net = __webpack_require__(136);
+var Personal = __webpack_require__(137);
+var Swarm = __webpack_require__(139);
+var Settings = __webpack_require__(142);
+var version = __webpack_require__(125);
 var utils = __webpack_require__(2);
 var sha3 = __webpack_require__(24);
-var extend = __webpack_require__(132);
-var Batch = __webpack_require__(130);
+var extend = __webpack_require__(130);
+var Batch = __webpack_require__(128);
 var Property = __webpack_require__(19);
-var HttpProvider = __webpack_require__(134);
-var IpcProvider = __webpack_require__(135);
+var HttpProvider = __webpack_require__(132);
+var IpcProvider = __webpack_require__(133);
 var BigNumber = __webpack_require__(23);
 
 
@@ -44114,7 +44103,7 @@ module.exports = Web3;
 
 
 /***/ }),
-/* 129 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -44208,7 +44197,7 @@ module.exports = AllSolidityEvents;
 
 
 /***/ }),
-/* 130 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -44280,7 +44269,7 @@ module.exports = Batch;
 
 
 /***/ }),
-/* 131 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -44308,8 +44297,8 @@ module.exports = Batch;
 var utils = __webpack_require__(2);
 var coder = __webpack_require__(51);
 var SolidityEvent = __webpack_require__(60);
-var SolidityFunction = __webpack_require__(133);
-var AllEvents = __webpack_require__(129);
+var SolidityFunction = __webpack_require__(131);
+var AllEvents = __webpack_require__(127);
 
 /**
  * Should be called to encode constructor params
@@ -44596,7 +44585,7 @@ module.exports = ContractFactory;
 
 
 /***/ }),
-/* 132 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var formatters = __webpack_require__(9);
@@ -44650,7 +44639,7 @@ module.exports = extend;
 
 
 /***/ }),
-/* 133 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -44918,7 +44907,7 @@ module.exports = SolidityFunction;
 
 
 /***/ }),
-/* 134 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -44955,7 +44944,7 @@ if (typeof window !== 'undefined' && window.XMLHttpRequest) {
     XMLHttpRequest = window.XMLHttpRequest; // jshint ignore: line
 // node
 } else {
-    XMLHttpRequest = __webpack_require__(126).XMLHttpRequest; // jshint ignore: line
+    XMLHttpRequest = __webpack_require__(124).XMLHttpRequest; // jshint ignore: line
 }
 
 var XHR2 = __webpack_require__(69); // jshint ignore: line
@@ -45077,7 +45066,7 @@ module.exports = HttpProvider;
 
 
 /***/ }),
-/* 135 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45291,7 +45280,7 @@ module.exports = IpcProvider;
 
 
 /***/ }),
-/* 136 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -45363,7 +45352,7 @@ module.exports = DB;
 
 
 /***/ }),
-/* 137 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45397,13 +45386,13 @@ var utils = __webpack_require__(2);
 var Method = __webpack_require__(14);
 var Property = __webpack_require__(19);
 var c = __webpack_require__(34);
-var Contract = __webpack_require__(131);
+var Contract = __webpack_require__(129);
 var watches = __webpack_require__(37);
 var Filter = __webpack_require__(35);
-var IsSyncing = __webpack_require__(145);
-var namereg = __webpack_require__(142);
+var IsSyncing = __webpack_require__(143);
+var namereg = __webpack_require__(140);
 var Iban = __webpack_require__(36);
-var transfer = __webpack_require__(146);
+var transfer = __webpack_require__(144);
 
 var blockCall = function (args) {
     return (utils.isString(args[0]) && args[0].indexOf('0x') === 0) ? "eth_getBlockByHash" : "eth_getBlockByNumber";
@@ -45724,7 +45713,7 @@ module.exports = Eth;
 
 
 /***/ }),
-/* 138 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -45782,7 +45771,7 @@ module.exports = Net;
 
 
 /***/ }),
-/* 139 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45882,7 +45871,7 @@ module.exports = Personal;
 
 
 /***/ }),
-/* 140 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -45974,7 +45963,7 @@ module.exports = Shh;
 
 
 /***/ }),
-/* 141 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46126,7 +46115,7 @@ module.exports = Swarm;
 
 
 /***/ }),
-/* 142 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -46151,8 +46140,8 @@ module.exports = Swarm;
  * @date 2015
  */
 
-var globalRegistrarAbi = __webpack_require__(114);
-var icapRegistrarAbi= __webpack_require__(115);
+var globalRegistrarAbi = __webpack_require__(112);
+var icapRegistrarAbi= __webpack_require__(113);
 
 var globalNameregAddress = '0xc6d9d2cd449a754c494264e1809c50e34d64562b';
 var icapNameregAddress = '0xa1a111bc074c9cfa781f0c38e63bd51c91b8af00';
@@ -46171,7 +46160,7 @@ module.exports = {
 
 
 /***/ }),
-/* 143 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -46442,7 +46431,7 @@ module.exports = RequestManager;
 
 
 /***/ }),
-/* 144 */
+/* 142 */
 /***/ (function(module, exports) {
 
 
@@ -46457,7 +46446,7 @@ module.exports = Settings;
 
 
 /***/ }),
-/* 145 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -46556,7 +46545,7 @@ module.exports = IsSyncing;
 
 
 /***/ }),
-/* 146 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -46582,7 +46571,7 @@ module.exports = IsSyncing;
  */
 
 var Iban = __webpack_require__(36);
-var exchangeAbi = __webpack_require__(116);
+var exchangeAbi = __webpack_require__(114);
 
 /**
  * Should be used to make Iban transfer
@@ -46654,11 +46643,11 @@ module.exports = transfer;
 
 
 /***/ }),
-/* 147 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var sha3 = __webpack_require__(148);
-var schema_version = __webpack_require__(150).version;
+var sha3 = __webpack_require__(146);
+var schema_version = __webpack_require__(148).version;
 
 var TruffleSchema = {
   // Normalize options passed in to be the exact options required
@@ -46841,13 +46830,13 @@ module.exports = TruffleSchema;
 
 
 /***/ }),
-/* 148 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
 	if (true) {
 		// CommonJS
-		module.exports = exports = factory(__webpack_require__(62), __webpack_require__(149));
+		module.exports = exports = factory(__webpack_require__(62), __webpack_require__(147));
 	}
 	else if (typeof define === "function" && define.amd) {
 		// AMD
@@ -47169,7 +47158,7 @@ module.exports = TruffleSchema;
 }));
 
 /***/ }),
-/* 149 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory) {
@@ -47478,18 +47467,18 @@ module.exports = TruffleSchema;
 }));
 
 /***/ }),
-/* 150 */
+/* 148 */
 /***/ (function(module, exports) {
 
 module.exports = {"_from":"truffle-contract-schema@0.0.5","_id":"truffle-contract-schema@0.0.5","_inBundle":false,"_integrity":"sha1-Xp0gvQvyon/pQxB0gknUhO7kmWE=","_location":"/truffle-contract-schema","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"truffle-contract-schema@0.0.5","name":"truffle-contract-schema","escapedName":"truffle-contract-schema","rawSpec":"0.0.5","saveSpec":null,"fetchSpec":"0.0.5"},"_requiredBy":["/truffle-contract"],"_resolved":"http://r.cnpmjs.org/truffle-contract-schema/download/truffle-contract-schema-0.0.5.tgz","_shasum":"5e9d20bd0bf2a27fe94310748249d484eee49961","_spec":"truffle-contract-schema@0.0.5","_where":"/Users/edz/votetest/node_modules/truffle-contract","author":{"name":"Tim Coulter","email":"tim.coulter@consensys.net"},"bugs":{"url":"https://github.com/trufflesuite/truffle-schema/issues"},"bundleDependencies":false,"dependencies":{"crypto-js":"^3.1.9-1"},"deprecated":false,"description":"JSON schema for contract artifacts","devDependencies":{"mocha":"^3.2.0"},"homepage":"https://github.com/trufflesuite/truffle-schema#readme","keywords":["ethereum","json","schema","contract","artifacts"],"license":"MIT","main":"index.js","name":"truffle-contract-schema","repository":{"type":"git","url":"git+https://github.com/trufflesuite/truffle-schema.git"},"scripts":{"test":"mocha"},"version":"0.0.5"}
 
 /***/ }),
-/* 151 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(global, module) {var ethJSABI = __webpack_require__(102);
-var BlockchainUtils = __webpack_require__(112);
-var Web3 = __webpack_require__(152);
+/* WEBPACK VAR INJECTION */(function(global, module) {var ethJSABI = __webpack_require__(100);
+var BlockchainUtils = __webpack_require__(110);
+var Web3 = __webpack_require__(150);
 
 // For browserified version. If browserify gave us an empty version,
 // look for the one provided by the user.
@@ -48286,10 +48275,10 @@ var contract = (function(module) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(47), __webpack_require__(55)(module)))
 
 /***/ }),
-/* 152 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Web3 = __webpack_require__(167);
+var Web3 = __webpack_require__(165);
 
 // dont override global variable
 if (typeof window !== 'undefined' && typeof window.Web3 === 'undefined') {
@@ -48300,25 +48289,25 @@ module.exports = Web3;
 
 
 /***/ }),
-/* 153 */
+/* 151 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"name","outputs":[{"name":"o_name","type":"bytes32"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"owner","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"content","outputs":[{"name":"","type":"bytes32"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"addr","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"reserve","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"subRegistrar","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_newOwner","type":"address"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_registrar","type":"address"}],"name":"setSubRegistrar","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"Registrar","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_a","type":"address"},{"name":"_primary","type":"bool"}],"name":"setAddress","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_content","type":"bytes32"}],"name":"setContent","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"disown","outputs":[],"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_name","type":"bytes32"},{"indexed":false,"name":"_winner","type":"address"}],"name":"AuctionEnded","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_name","type":"bytes32"},{"indexed":false,"name":"_bidder","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"NewBid","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"}],"name":"Changed","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"},{"indexed":true,"name":"addr","type":"address"}],"name":"PrimaryChanged","type":"event"}]
 
 /***/ }),
-/* 154 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"owner","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_refund","type":"address"}],"name":"disown","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"addr","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"reserve","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_newOwner","type":"address"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_a","type":"address"}],"name":"setAddr","outputs":[],"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"}],"name":"Changed","type":"event"}]
 
 /***/ }),
-/* 155 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":false,"inputs":[{"name":"from","type":"bytes32"},{"name":"to","type":"address"},{"name":"value","type":"uint256"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"from","type":"bytes32"},{"name":"to","type":"address"},{"name":"indirectId","type":"bytes32"},{"name":"value","type":"uint256"}],"name":"icapTransfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"to","type":"bytes32"}],"name":"deposit","outputs":[],"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"AnonymousDeposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":true,"name":"to","type":"bytes32"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Deposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"bytes32"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"bytes32"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"indirectId","type":"bytes32"},{"indexed":false,"name":"value","type":"uint256"}],"name":"IcapTransfer","type":"event"}]
 
 /***/ }),
-/* 156 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -48355,7 +48344,7 @@ module.exports = SolidityTypeAddress;
 
 
 /***/ }),
-/* 157 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -48391,7 +48380,7 @@ module.exports = SolidityTypeBool;
 
 
 /***/ }),
-/* 158 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -48435,7 +48424,7 @@ module.exports = SolidityTypeBytes;
 
 
 /***/ }),
-/* 159 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -48466,7 +48455,7 @@ module.exports = SolidityTypeDynamicBytes;
 
 
 /***/ }),
-/* 160 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -48508,7 +48497,7 @@ module.exports = SolidityTypeInt;
 
 
 /***/ }),
-/* 161 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -48550,7 +48539,7 @@ module.exports = SolidityTypeReal;
 
 
 /***/ }),
-/* 162 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -48581,7 +48570,7 @@ module.exports = SolidityTypeString;
 
 
 /***/ }),
-/* 163 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -48623,7 +48612,7 @@ module.exports = SolidityTypeUInt;
 
 
 /***/ }),
-/* 164 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -48665,7 +48654,7 @@ module.exports = SolidityTypeUReal;
 
 
 /***/ }),
-/* 165 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48681,13 +48670,13 @@ if (typeof XMLHttpRequest === 'undefined') {
 
 
 /***/ }),
-/* 166 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {"version":"0.16.0"}
 
 /***/ }),
-/* 167 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -48717,22 +48706,22 @@ module.exports = {"version":"0.16.0"}
  * @date 2014
  */
 
-var RequestManager = __webpack_require__(181);
+var RequestManager = __webpack_require__(179);
 var Iban = __webpack_require__(41);
-var Eth = __webpack_require__(176);
-var DB = __webpack_require__(175);
-var Shh = __webpack_require__(179);
-var Net = __webpack_require__(177);
-var Personal = __webpack_require__(178);
-var Settings = __webpack_require__(182);
-var version = __webpack_require__(166);
+var Eth = __webpack_require__(174);
+var DB = __webpack_require__(173);
+var Shh = __webpack_require__(177);
+var Net = __webpack_require__(175);
+var Personal = __webpack_require__(176);
+var Settings = __webpack_require__(180);
+var version = __webpack_require__(164);
 var utils = __webpack_require__(3);
 var sha3 = __webpack_require__(26);
-var extend = __webpack_require__(171);
-var Batch = __webpack_require__(169);
+var extend = __webpack_require__(169);
+var Batch = __webpack_require__(167);
 var Property = __webpack_require__(28);
-var HttpProvider = __webpack_require__(173);
-var IpcProvider = __webpack_require__(174);
+var HttpProvider = __webpack_require__(171);
+var IpcProvider = __webpack_require__(172);
 
 
 
@@ -48839,7 +48828,7 @@ module.exports = Web3;
 
 
 /***/ }),
-/* 168 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -48933,7 +48922,7 @@ module.exports = AllSolidityEvents;
 
 
 /***/ }),
-/* 169 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -49005,7 +48994,7 @@ module.exports = Batch;
 
 
 /***/ }),
-/* 170 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -49033,8 +49022,8 @@ module.exports = Batch;
 var utils = __webpack_require__(3);
 var coder = __webpack_require__(52);
 var SolidityEvent = __webpack_require__(64);
-var SolidityFunction = __webpack_require__(172);
-var AllEvents = __webpack_require__(168);
+var SolidityFunction = __webpack_require__(170);
+var AllEvents = __webpack_require__(166);
 
 /**
  * Should be called to encode constructor params
@@ -49309,7 +49298,7 @@ module.exports = ContractFactory;
 
 
 /***/ }),
-/* 171 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var formatters = __webpack_require__(11);
@@ -49363,7 +49352,7 @@ module.exports = extend;
 
 
 /***/ }),
-/* 172 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -49616,7 +49605,7 @@ module.exports = SolidityFunction;
 
 
 /***/ }),
-/* 173 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49661,7 +49650,7 @@ if (typeof Meteor !== 'undefined' && Meteor.isServer) { // jshint ignore: line
 
 // node
 } else {
-    XMLHttpRequest = __webpack_require__(165).XMLHttpRequest; // jshint ignore: line
+    XMLHttpRequest = __webpack_require__(163).XMLHttpRequest; // jshint ignore: line
 }
 
 /**
@@ -49769,7 +49758,7 @@ module.exports = HttpProvider;
 
 
 /***/ }),
-/* 174 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49983,7 +49972,7 @@ module.exports = IpcProvider;
 
 
 /***/ }),
-/* 175 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -50055,7 +50044,7 @@ module.exports = DB;
 
 
 /***/ }),
-/* 176 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50089,13 +50078,13 @@ var utils = __webpack_require__(3);
 var Method = __webpack_require__(20);
 var Property = __webpack_require__(28);
 var c = __webpack_require__(39);
-var Contract = __webpack_require__(170);
+var Contract = __webpack_require__(168);
 var watches = __webpack_require__(42);
 var Filter = __webpack_require__(40);
-var IsSyncing = __webpack_require__(183);
-var namereg = __webpack_require__(180);
+var IsSyncing = __webpack_require__(181);
+var namereg = __webpack_require__(178);
 var Iban = __webpack_require__(41);
-var transfer = __webpack_require__(184);
+var transfer = __webpack_require__(182);
 
 var blockCall = function (args) {
     return (utils.isString(args[0]) && args[0].indexOf('0x') === 0) ? "eth_getBlockByHash" : "eth_getBlockByNumber";
@@ -50405,7 +50394,7 @@ module.exports = Eth;
 
 
 /***/ }),
-/* 177 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -50463,7 +50452,7 @@ module.exports = Net;
 
 
 /***/ }),
-/* 178 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50555,7 +50544,7 @@ module.exports = Personal;
 
 
 /***/ }),
-/* 179 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -50647,7 +50636,7 @@ module.exports = Shh;
 
 
 /***/ }),
-/* 180 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -50672,8 +50661,8 @@ module.exports = Shh;
  * @date 2015
  */
 
-var globalRegistrarAbi = __webpack_require__(153);
-var icapRegistrarAbi= __webpack_require__(154);
+var globalRegistrarAbi = __webpack_require__(151);
+var icapRegistrarAbi= __webpack_require__(152);
 
 var globalNameregAddress = '0xc6d9d2cd449a754c494264e1809c50e34d64562b';
 var icapNameregAddress = '0xa1a111bc074c9cfa781f0c38e63bd51c91b8af00';
@@ -50692,7 +50681,7 @@ module.exports = {
 
 
 /***/ }),
-/* 181 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -50963,7 +50952,7 @@ module.exports = RequestManager;
 
 
 /***/ }),
-/* 182 */
+/* 180 */
 /***/ (function(module, exports) {
 
 
@@ -50978,7 +50967,7 @@ module.exports = Settings;
 
 
 /***/ }),
-/* 183 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -51077,7 +51066,7 @@ module.exports = IsSyncing;
 
 
 /***/ }),
-/* 184 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -51103,7 +51092,7 @@ module.exports = IsSyncing;
  */
 
 var Iban = __webpack_require__(41);
-var exchangeAbi = __webpack_require__(155);
+var exchangeAbi = __webpack_require__(153);
 
 /**
  * Should be used to make Iban transfer
@@ -51175,25 +51164,25 @@ module.exports = transfer;
 
 
 /***/ }),
-/* 185 */
+/* 183 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"name","outputs":[{"name":"o_name","type":"bytes32"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"owner","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"content","outputs":[{"name":"","type":"bytes32"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"addr","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"reserve","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"subRegistrar","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_newOwner","type":"address"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_registrar","type":"address"}],"name":"setSubRegistrar","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"Registrar","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_a","type":"address"},{"name":"_primary","type":"bool"}],"name":"setAddress","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_content","type":"bytes32"}],"name":"setContent","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"disown","outputs":[],"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_name","type":"bytes32"},{"indexed":false,"name":"_winner","type":"address"}],"name":"AuctionEnded","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_name","type":"bytes32"},{"indexed":false,"name":"_bidder","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"NewBid","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"}],"name":"Changed","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"},{"indexed":true,"name":"addr","type":"address"}],"name":"PrimaryChanged","type":"event"}]
 
 /***/ }),
-/* 186 */
+/* 184 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"owner","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_refund","type":"address"}],"name":"disown","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"addr","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"reserve","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_newOwner","type":"address"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_a","type":"address"}],"name":"setAddr","outputs":[],"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"}],"name":"Changed","type":"event"}]
 
 /***/ }),
-/* 187 */
+/* 185 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":false,"inputs":[{"name":"from","type":"bytes32"},{"name":"to","type":"address"},{"name":"value","type":"uint256"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"from","type":"bytes32"},{"name":"to","type":"address"},{"name":"indirectId","type":"bytes32"},{"name":"value","type":"uint256"}],"name":"icapTransfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"to","type":"bytes32"}],"name":"deposit","outputs":[],"payable":true,"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"AnonymousDeposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":true,"name":"to","type":"bytes32"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Deposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"bytes32"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"bytes32"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"indirectId","type":"bytes32"},{"indexed":false,"name":"value","type":"uint256"}],"name":"IcapTransfer","type":"event"}]
 
 /***/ }),
-/* 188 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -51225,7 +51214,7 @@ module.exports = SolidityTypeAddress;
 
 
 /***/ }),
-/* 189 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -51257,7 +51246,7 @@ module.exports = SolidityTypeBool;
 
 
 /***/ }),
-/* 190 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -51292,7 +51281,7 @@ module.exports = SolidityTypeBytes;
 
 
 /***/ }),
-/* 191 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -51318,7 +51307,7 @@ module.exports = SolidityTypeDynamicBytes;
 
 
 /***/ }),
-/* 192 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -51356,7 +51345,7 @@ module.exports = SolidityTypeInt;
 
 
 /***/ }),
-/* 193 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -51394,7 +51383,7 @@ module.exports = SolidityTypeReal;
 
 
 /***/ }),
-/* 194 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -51420,7 +51409,7 @@ module.exports = SolidityTypeString;
 
 
 /***/ }),
-/* 195 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -51458,7 +51447,7 @@ module.exports = SolidityTypeUInt;
 
 
 /***/ }),
-/* 196 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -51496,7 +51485,7 @@ module.exports = SolidityTypeUReal;
 
 
 /***/ }),
-/* 197 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51512,13 +51501,13 @@ if (typeof XMLHttpRequest === 'undefined') {
 
 
 /***/ }),
-/* 198 */
+/* 196 */
 /***/ (function(module, exports) {
 
 module.exports = {"version":"0.20.6"}
 
 /***/ }),
-/* 199 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -51548,23 +51537,23 @@ module.exports = {"version":"0.20.6"}
  * @date 2014
  */
 
-var RequestManager = __webpack_require__(214);
+var RequestManager = __webpack_require__(212);
 var Iban = __webpack_require__(45);
-var Eth = __webpack_require__(208);
-var DB = __webpack_require__(207);
-var Shh = __webpack_require__(211);
-var Net = __webpack_require__(209);
-var Personal = __webpack_require__(210);
-var Swarm = __webpack_require__(212);
-var Settings = __webpack_require__(215);
-var version = __webpack_require__(198);
+var Eth = __webpack_require__(206);
+var DB = __webpack_require__(205);
+var Shh = __webpack_require__(209);
+var Net = __webpack_require__(207);
+var Personal = __webpack_require__(208);
+var Swarm = __webpack_require__(210);
+var Settings = __webpack_require__(213);
+var version = __webpack_require__(196);
 var utils = __webpack_require__(4);
 var sha3 = __webpack_require__(29);
-var extend = __webpack_require__(203);
-var Batch = __webpack_require__(201);
+var extend = __webpack_require__(201);
+var Batch = __webpack_require__(199);
 var Property = __webpack_require__(22);
-var HttpProvider = __webpack_require__(205);
-var IpcProvider = __webpack_require__(206);
+var HttpProvider = __webpack_require__(203);
+var IpcProvider = __webpack_require__(204);
 var BigNumber = __webpack_require__(30);
 
 
@@ -51676,7 +51665,7 @@ module.exports = Web3;
 
 
 /***/ }),
-/* 200 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -51769,7 +51758,7 @@ module.exports = AllSolidityEvents;
 
 
 /***/ }),
-/* 201 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -51841,7 +51830,7 @@ module.exports = Batch;
 
 
 /***/ }),
-/* 202 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -51869,8 +51858,8 @@ module.exports = Batch;
 var utils = __webpack_require__(4);
 var coder = __webpack_require__(54);
 var SolidityEvent = __webpack_require__(67);
-var SolidityFunction = __webpack_require__(204);
-var AllEvents = __webpack_require__(200);
+var SolidityFunction = __webpack_require__(202);
+var AllEvents = __webpack_require__(198);
 
 /**
  * Should be called to encode constructor params
@@ -52157,7 +52146,7 @@ module.exports = ContractFactory;
 
 
 /***/ }),
-/* 203 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var formatters = __webpack_require__(13);
@@ -52211,7 +52200,7 @@ module.exports = extend;
 
 
 /***/ }),
-/* 204 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -52500,7 +52489,7 @@ module.exports = SolidityFunction;
 
 
 /***/ }),
-/* 205 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(Buffer) {/*
@@ -52536,7 +52525,7 @@ if (typeof window !== 'undefined' && window.XMLHttpRequest) {
   XMLHttpRequest = window.XMLHttpRequest; // jshint ignore: line
 // node
 } else {
-  XMLHttpRequest = __webpack_require__(197).XMLHttpRequest; // jshint ignore: line
+  XMLHttpRequest = __webpack_require__(195).XMLHttpRequest; // jshint ignore: line
 }
 
 var XHR2 = __webpack_require__(69); // jshint ignore: line
@@ -52670,7 +52659,7 @@ module.exports = HttpProvider;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(31).Buffer))
 
 /***/ }),
-/* 206 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52884,7 +52873,7 @@ module.exports = IpcProvider;
 
 
 /***/ }),
-/* 207 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -52956,7 +52945,7 @@ module.exports = DB;
 
 
 /***/ }),
-/* 208 */
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52990,13 +52979,13 @@ var utils = __webpack_require__(4);
 var Method = __webpack_require__(15);
 var Property = __webpack_require__(22);
 var c = __webpack_require__(43);
-var Contract = __webpack_require__(202);
+var Contract = __webpack_require__(200);
 var watches = __webpack_require__(46);
 var Filter = __webpack_require__(44);
-var IsSyncing = __webpack_require__(216);
-var namereg = __webpack_require__(213);
+var IsSyncing = __webpack_require__(214);
+var namereg = __webpack_require__(211);
 var Iban = __webpack_require__(45);
-var transfer = __webpack_require__(217);
+var transfer = __webpack_require__(215);
 
 var blockCall = function (args) {
     return (utils.isString(args[0]) && args[0].indexOf('0x') === 0) ? "eth_getBlockByHash" : "eth_getBlockByNumber";
@@ -53317,7 +53306,7 @@ module.exports = Eth;
 
 
 /***/ }),
-/* 209 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -53375,7 +53364,7 @@ module.exports = Net;
 
 
 /***/ }),
-/* 210 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53497,7 +53486,7 @@ module.exports = Personal;
 
 
 /***/ }),
-/* 211 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -53647,7 +53636,7 @@ module.exports = Shh;
 
 
 /***/ }),
-/* 212 */
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53799,7 +53788,7 @@ module.exports = Swarm;
 
 
 /***/ }),
-/* 213 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -53824,8 +53813,8 @@ module.exports = Swarm;
  * @date 2015
  */
 
-var globalRegistrarAbi = __webpack_require__(185);
-var icapRegistrarAbi= __webpack_require__(186);
+var globalRegistrarAbi = __webpack_require__(183);
+var icapRegistrarAbi= __webpack_require__(184);
 
 var globalNameregAddress = '0xc6d9d2cd449a754c494264e1809c50e34d64562b';
 var icapNameregAddress = '0xa1a111bc074c9cfa781f0c38e63bd51c91b8af00';
@@ -53844,7 +53833,7 @@ module.exports = {
 
 
 /***/ }),
-/* 214 */
+/* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -54115,7 +54104,7 @@ module.exports = RequestManager;
 
 
 /***/ }),
-/* 215 */
+/* 213 */
 /***/ (function(module, exports) {
 
 
@@ -54130,7 +54119,7 @@ module.exports = Settings;
 
 
 /***/ }),
-/* 216 */
+/* 214 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -54229,7 +54218,7 @@ module.exports = IsSyncing;
 
 
 /***/ }),
-/* 217 */
+/* 215 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -54255,7 +54244,7 @@ module.exports = IsSyncing;
  */
 
 var Iban = __webpack_require__(45);
-var exchangeAbi = __webpack_require__(187);
+var exchangeAbi = __webpack_require__(185);
 
 /**
  * Should be used to make Iban transfer

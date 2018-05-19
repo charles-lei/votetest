@@ -5,11 +5,11 @@ import { default as Web3} from 'web3';
 import { default as contract } from 'truffle-contract'
 
 // Import our contract artifacts and turn them into usable abstractions.
-import metacoin_artifacts from '../../build/contracts/MetaCoin.json'
-import votes_artifacts from '../../build/contracts/VoteSystem.json'
+// import metacoin_artifacts from '../../build/contracts/MetaCoin.json'
+// import votes_artifacts from '../../build/contracts/VoteSystem.json'
 // MetaCoin is our usable abstraction, which we'll use through the code below.
-var MetaCoin = contract(metacoin_artifacts);
-var VoteSystem = contract(votes_artifacts);
+// var MetaCoin = contract(metacoin_artifacts);
+// var VoteSystem = contract(votes_artifacts);
 // The following code is simple to show off interacting with your contracts.
 // As your needs grow you will likely need to change its form and structure.
 // For application bootstrapping, check out window.addEventListener below.
@@ -21,30 +21,28 @@ window.App = {
     var self = this;
 
     // Bootstrap the MetaCoin abstraction for Use.
-    MetaCoin.setProvider(web3.currentProvider);
-    VoteSystem.setProvider(web3.currentProvider);
-    // Get the initial account balance so it can be displayed.
-    web3.eth.getAccounts(function(err, accs) {
-      if (err != null) {
-        alert("There was an error fetching your accounts.");
-        return;
-      }
+    // MetaCoin.setProvider(web3.currentProvider);
+    // VoteSystem.setProvider(web3.currentProvider);
+    // // Get the initial account balance so it can be displayed.
+    // web3.eth.getAccounts(function(err, accs) {
+    //   if (err != null) {
+    //     alert("There was an error fetching your accounts.");
+    //     return;
+    //   }
 
-      if (accs.length == 0) {
-        alert("Couldn't get any accounts! Make sure your Ethereum client is configured correctly.");
-        return;
-      }
+    //   if (accs.length == 0) {
+    //     alert("Couldn't get any accounts! Make sure your Ethereum client is configured correctly.");
+    //     return;
+    //   }
 
-      accounts = accs;
-      account = accounts[0];
+    //   accounts = accs;
+    //   account = accounts[0];
 
-      self.refreshBalance();
-    });
+    //   self.refreshBalance();
+    // });
   },
   createVote: function(params){
-    console.log(params);
-    console.log(params.param1);
-    console.log(params.param2);
+    
   },
   getResult: function() {
 
@@ -52,68 +50,68 @@ window.App = {
   vote: function(params) {
 
   },
-  setStatus: function(message) {
-  },
-  refreshBalance: function() {
-    var self = this;
+  // setStatus: function(message) {
+  // },
+  // refreshBalance: function() {
+  //   // var self = this;
 
-    var meta;
-    MetaCoin.deployed().then(function(instance) {
-      meta = instance;
-      return meta.getBalance.call(account, {from: account});
-    }).then(function(value) {
-      var balance_element = document.getElementById("balance");
-      balance_element.innerHTML = value.valueOf();
-    }).catch(function(e) {
-      console.log(e);
-      self.setStatus("Error getting balance; see log.");
-    });
-  },
-  createVotes: function() {
-    var self = this;
-    var nickName = 'firstVote';
-    var theme = 'firstTheme';
-    var voterAddresses = ['0x36DC69A3cDF51De25dE600110e5fD16811906FB3','0x31107c95C62FE161Bce091716879e28d84e2A484'];
-    VoteSystem.deployed().then(function(instance) {
-      return instance.createVote(nickName, theme, voterAddresses, {from: account});
-    }).catch(function(e) {
-      console.log(e);
-      self.setStatus("Error sending coin; see log.");
-    });
-  },
-  getVotes: function() {
-    var self = this;
+  //   // var meta;
+  //   // MetaCoin.deployed().then(function(instance) {
+  //   //   meta = instance;
+  //   //   return meta.getBalance.call(account, {from: account});
+  //   // }).then(function(value) {
+  //   //   var balance_element = document.getElementById("balance");
+  //   //   balance_element.innerHTML = value.valueOf();
+  //   // }).catch(function(e) {
+  //   //   console.log(e);
+  //   //   self.setStatus("Error getting balance; see log.");
+  //   // });
+  // },
+  // createVotes: function() {
+  //   var self = this;
+  //   var nickName = 'firstVote';
+  //   var theme = 'firstTheme';
+  //   var voterAddresses = ['0x36DC69A3cDF51De25dE600110e5fD16811906FB3','0x31107c95C62FE161Bce091716879e28d84e2A484'];
+  //   VoteSystem.deployed().then(function(instance) {
+  //     return instance.createVote(nickName, theme, voterAddresses, {from: account});
+  //   }).catch(function(e) {
+  //     console.log(e);
+  //     self.setStatus("Error sending coin; see log.");
+  //   });
+  // },
+  // getVotes: function() {
+  //   var self = this;
 
-    var meta;
-    VoteSystem.deployed().then(function(instance) {
-      meta = instance;
-      return meta.votes.call({from: account});
-    }).catch(function(e) {
-      console.log(e);
-      self.setStatus("Error getting balance; see log.");
-    });
-  },
-  sendCoin: function() {
-    var self = this;
+  //   var meta;
+  //   VoteSystem.deployed().then(function(instance) {
+  //     meta = instance;
+  //     return meta.votes.call({from: account});
+  //   }).catch(function(e) {
+  //     console.log(e);
+  //     self.setStatus("Error getting balance; see log.");
+  //   });
+  // },
+  // sendCoin: function() {
+  //   var self = this;
 
-    var amount = parseInt(document.getElementById("amount").value);
-    var receiver = document.getElementById("receiver").value;
+  //   var amount = parseInt(document.getElementById("amount").value);
+  //   var receiver = document.getElementById("receiver").value;
 
-    this.setStatus("Initiating transaction... (please wait)");
+  //   this.setStatus("Initiating transaction... (please wait)");
 
-    var meta;
-    MetaCoin.deployed().then(function(instance) {
-      meta = instance;
-      return meta.sendCoin(receiver, amount, {from: account});
-    }).then(function(res) {
-      console.log(res)
-      self.setStatus("Transaction complete!");
-      self.refreshBalance();
-    }).catch(function(e) {
-      console.log(e);
-      self.setStatus("Error sending coin; see log.");
-    });
-  }
+  //   var meta;
+  //   MetaCoin.deployed().then(function(instance) {
+  //     meta = instance;
+  //     return meta.sendCoin(receiver, amount, {from: account});
+  //   }).then(function(res) {
+  //     console.log(res)
+  //     self.setStatus("Transaction complete!");
+  //     self.refreshBalance();
+  //   }).catch(function(e) {
+  //     console.log(e);
+  //     self.setStatus("Error sending coin; see log.");
+  //   });
+  // }
 };
 
 window.addEventListener('load', function() {
