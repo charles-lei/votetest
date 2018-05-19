@@ -22,7 +22,7 @@ contract CreateVote{
         uint startTime;
         uint32 endTime;
         bool state;
-        uint32[10] count;
+        uint32[20] count;
         mapping(address => string) voterToProposalName;
         address[] allVoters;
     }
