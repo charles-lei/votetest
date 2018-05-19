@@ -1,1 +1,227 @@
-<h1>Create Vote page</h1>
+﻿<!DOCTYPE html>
+<!-- BEGIN HEAD -->
+<head>
+
+	<meta charset="utf-8" />
+	<title>chainVote</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+
+	<!-- BEGIN bootstrap -->
+	<link href="https://cdn.bootcss.com/bootstrap/3.0.1/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="https://cdn.bootcss.com/bootstrap/3.0.1/css/bootstrap.css" rel="stylesheet">
+	<link href="https://cdn.bootcss.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet">
+	<!-- END bootstrap -->
+
+</head>
+<!-- END HEAD -->
+
+<!-- BEGIN BODY -->
+
+<body class="">
+
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<form role="form">
+				
+		<!-- BEGIN voteSummary  -->
+				<div class="form-group">
+					 <label for="exampleInputEmail1">发起人以太坊地址</label>
+					 <input class="form-control" id="proposer" />
+				</div>
+				<div class="form-group">
+					 <label for="exampleInputEmail1">投票号</label>
+					 <input class="form-control" id="serials" />
+				</div>
+			  <div class="form-group">
+					 <label for="exampleInputEmail1">主题</label>
+					 <input class="form-control" id="theme" />
+				</div>
+				<div class="form-group">
+					 <label for="exampleInputEmail1">结束时间</label>
+					 <input type="datetime" class="form-control" id="endTime" />
+				</div>
+		<!--  END voteSummary -->
+
+		<!-- BEGIN Proposals -->
+			<table class="table table-bordered" id="para_table">
+			 <thead>
+			  <tr>
+			   <th style="text-align:center" width="200">选项</th>
+			   <th style="text-align:center" width="100">操作</th>
+			  </tr>
+			 </thead>
+			 <tbody>
+			  <tr>
+			   <td style="text-align:center; " onclick="tdclick(this)"></td>
+			   <td style="text-align:center; " onclick="deletetr(this)"><button type="button" class="btn btn-xs btn-link">删除</button></td>
+			  </tr>
+			 </tbody>
+			</table>
+			 
+			<div id="addtrdiv" style="margin-top:-15px; width: 15%; float: right;">
+			 <button type="button" class="btn btn-xs btn-link" onclick="addtr()">添加</button>
+			</div>
+		<!--  END Proposals-->				
+				
+				<button onclick="creatvote()" class="btn btn-default">发起投票</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+	</div>
+
+	<!-- END LOGIN -->
+	<!-- BEGIN COPYRIGHT -->
+
+	<div class="copyright">
+		2018 &copy; NODE ac - Vote Team.
+	</div>
+
+
+	<!-- BEGIN JAVASCRIPT -->
+	
+	<!-- BEGIN bootstrap SCRIPTS -->
+	<script src="https://cdn.bootcss.com/bootstrap/3.0.1/js/bootstrap.js"></script>
+	<!-- END bootstrap SCRIPTS --> 
+  <script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.0.0/jquery.min.js"></script>
+  
+  <script type="text/javascript"> 
+	function creatvote(){ 
+		 alert("creatvote"); 
+	  var proposer = document.getElementById("proposer").value; 
+	  var serials = document.getElementById("serials").value; 
+	  var theme = document.getElementById("theme").value; 
+	  var endTime = document.getElementById("endTime").value; 
+	  var proposals = getProposalsInfo(); 
+	  alert(proposals); 
+	} 
+
+
+		//get Proposals infomation 
+	function getProposalsInfo(){ 
+	  var proposal = ""; 
+	  var tabledata = ""; 
+	  var table = $("#para_table"); 
+	  var tbody = table.children(); 
+	  var trs = tbody.children(); 
+	  for(var i=1;i<trs.length;i++){ 
+	    var tds = trs.eq(i).children(); 
+	        proposal = ""+tds.eq(0).text()+""; 
+	    if(i==trs.length-1){ 
+	      tabledata += ""+proposal+""; 
+	    }else{ 
+	      tabledata += ""+proposal+";"; 
+	    } 
+    } 
+	  return tabledata; 
+
+}
+
+	function save_para_table(){ 
+	  var tableinfo = gettableinfo(); 
+	  alert(tableinfo); 
+	} 
+	
+	//get table infomation 
+	function gettableinfo(){ 
+	  var key = ""; 
+	  var value = ""; 
+	  var tabledata = ""; 
+	  var table = $("#para_table"); 
+	  var tbody = table.children(); 
+	  var trs = tbody.children(); 
+	  for(var i=1;i<trs.length;i++){ 
+	    var tds = trs.eq(i).children(); 
+	    for(var j=0;j<tds.length;j++){ 
+	      if(j==0){ 
+	        if(tds.eq(j).text()==null||tds.eq(j).text()==""){ 
+	          return null; 
+	        } 
+	        key = "key\":\""+tds.eq(j).text(); 
+	      } 
+	      if(j==1){ 
+	        if(tds.eq(j).text()==null||tds.eq(j).text()==""){ 
+	          return null; 
+	        } 
+	        value = "value\":\""+tds.eq(j).text(); 
+	      } 
+	    } 
+	    if(i==trs.length-1){ 
+	      tabledata += "{\""+key+"\",\""+value+"\"}"; 
+	    }else{ 
+	      tabledata += "{\""+key+"\",\""+value+"\"},"; 
+	    } 
+	  } 
+	  tabledata = "["+tabledata+"]"; 
+	  return tabledata; 
+	} 
+	 
+	function tdclick(tdobject){ 
+	  var td=$(tdobject); 
+	  td.attr("onclick", ""); 
+	  //1,取出当前td中的文本内容保存起来 
+	  var text=td.text(); 
+	  //2,清空td里面的内容 
+	  td.html(""); //也可以用td.empty(); 
+	  //3，建立一个文本框，也就是input的元素节点 
+	  var input=$("<input>"); 
+	  //4，设置文本框的值是保存起来的文本内容 
+	  input.attr("value",text); 
+	  input.bind("blur",function(){ 
+	    var inputnode=$(this); 
+	    var inputtext=inputnode.val(); 
+	    var tdNode=inputnode.parent(); 
+	    tdNode.html(inputtext); 
+	    tdNode.click(tdclick); 
+	    td.attr("onclick", "tdclick(this)"); 
+	  }); 
+	  input.keyup(function(event){ 
+	    var myEvent =event||window.event; 
+	    var kcode=myEvent.keyCode; 
+	    if(kcode==13){ 
+	      var inputnode=$(this); 
+	      var inputtext=inputnode.val(); 
+	      var tdNode=inputnode.parent(); 
+	      tdNode.html(inputtext); 
+	      tdNode.click(tdclick); 
+	    } 
+	  }); 
+	 
+	  //5，将文本框加入到td中 
+	  td.append(input); 
+	  var t =input.val(); 
+	  input.val("").focus().val(t); 
+	//       input.focus(); 
+	  //6,清除点击事件 
+	  td.unbind("click"); 
+	 
+	}
+	var row=0; 
+	function addtr(){ 
+	  if(row<8){
+	  row++;
+	  var table = $("#para_table"); 
+	  var tr= $("<tr>" + 
+	    "<td style='text-align: center;' onclick='tdclick(this)'>"+"</td>" + 
+	   // "<td style='text-align: center;' onclick='tdclick(this)'>"+"</td>" + 
+	    "<td align='center' onclick='deletetr(this)'><button type='button' class='btn btn-xs btn-link' >"+"删除"+"</button></td></tr>"); 
+	  table.append(tr); 
+	  }else{
+	    alert("已达到最大选项数");
+	  }
+	} 
+	function deletetr(tdobject){
+	  row--;
+	  var td=$(tdobject); 
+	  td.parents("tr").remove(); 
+	}
+</script>
+<!-- END JAVASCRIPTS -->
+
+</body>
+<!-- END BODY -->
+</html>
