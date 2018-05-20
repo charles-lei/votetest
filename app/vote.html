@@ -1,1 +1,150 @@
-<h1>Vote page</h1>
+﻿<!DOCTYPE html>
+<!-- BEGIN HEAD -->
+<head>
+
+	<meta charset="utf-8" />
+	<title>chainVote</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+
+	<!-- BEGIN bootstrap -->
+	<link href="https://cdn.bootcss.com/bootstrap/3.0.1/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="https://cdn.bootcss.com/bootstrap/3.0.1/css/bootstrap.css" rel="stylesheet">
+	<link href="https://cdn.bootcss.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet">
+	
+
+
+	<!-- END bootstrap -->
+
+</head>
+<!-- END HEAD -->
+
+<!-- BEGIN BODY -->
+
+<body class="">
+
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<form role="form">
+				
+		<!-- BEGIN voteSummary  -->
+				<!--div class="form-group">
+					 <label for="exampleInputEmail1">投票人以太坊地址</label>
+					 <input class="form-control" id="voterAddress"/>
+				</div-->
+				<div class="form-group">
+					 <label for="exampleInputEmail1">投票号</label>
+					 <input class="form-control" id="serials" disabled="disabled"/>
+				</div>
+			  <div class="form-group">
+					 <label for="exampleInputEmail1">主题</label>
+					 <input class="form-control" id="theme" disabled="disabled"/>
+				</div>
+				<div class="form-group">
+					 <label for="exampleInputEmail1">结束时间</label>
+					 <input type="datetime" class="form-control" id="endTime" disabled="disabled"/>
+				</div>
+		<!--  END voteSummary -->
+
+		<!-- BEGIN Proposals -->
+			<table class="table table-bordered" id="para_table">
+			 <thead>
+			  <tr>
+			   <th style="text-align:center" width="200">选项</th>
+			  </tr>
+			 </thead>
+			 <tbody>
+			  <tr>
+			  	<td>
+              <ul class="list" id="proposalsUl">
+              </ul>
+          </td>
+			  </tr>
+			 </tbody>
+			</table>
+			 
+			 
+		<!--  END Proposals-->				
+				
+				<button onclick="vote()" class="btn btn-default">投票</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+	</div>
+
+	<!-- END LOGIN -->
+	<!-- BEGIN COPYRIGHT -->
+
+	<div class="copyright">
+		2018 &copy; NODE ac - Vote Team.
+	</div>
+
+
+	<!-- BEGIN JAVASCRIPT -->
+	
+	<!-- BEGIN bootstrap SCRIPTS -->
+	<script src="https://cdn.bootcss.com/bootstrap/3.0.1/js/bootstrap.js"></script>
+	<!-- END bootstrap SCRIPTS --> 
+  <script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.0.0/jquery.min.js"></script>
+  
+  <script type="text/javascript"> 
+    window.onload = readvote;
+   function readvote(){ 
+
+	  var proposer = "readproposer"; 
+	  var serials =  "readserials"; 
+	  var theme =  "readtheme"; 
+	  var endTime = "readendTime";
+	  var proposals = "123;223;333;433"; 
+	  
+	  //document.getElementById("proposer").value = proposer; 
+	  document.getElementById("serials").value = serials; 
+	  document.getElementById("theme").value = theme; 
+	  document.getElementById("endTime").value = endTime; 
+	  setProposalsRadioValue(proposals);
+	} 
+
+	function getRadioBoxValue(radioName){
+		var obj = document.getElementsByName(radioName);  //这个是以标签的name来取控件
+		for(i = 0;   i < obj.length; i++)    
+		{if(obj[i].checked)    
+			{return  obj[i].value;}
+		}
+		 return "undefined";
+	}  
+
+	function setProposalsRadioValue(proposals){
+
+		var result=proposals.split(";");
+		var ul = $("#proposalsUl");
+		for(var i=0;i<result.length;i++){
+					
+			  var li= $("<li>" + 
+			             "<input type='radio' name='proposals-radio' value='"+result[i]+"'>"+
+		               "<label for='square-radio-1'>"+result[i]+"</label>"+
+			    "</li>"); 
+			  ul.append(li); 
+	  } 
+	}  
+
+	function vote(){ 
+		 alert("vote"); 
+	  var voterAddress = document.getElementById("voterAddress").value; 
+	  var serials = document.getElementById("serials").value; 
+	  var theme = document.getElementById("theme").value; 
+	  var endTime = document.getElementById("endTime").value; 
+	  var proposalName = getRadioBoxValue("proposals-radio"); 
+	  alert(proposalName); 
+	  alert("投票成功"); 
+	} 
+
+</script>
+<!-- END JAVASCRIPTS -->
+
+</body>
+<!-- END BODY -->
+</html>
