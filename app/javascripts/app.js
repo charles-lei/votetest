@@ -20,41 +20,59 @@ var account;
 window.App = {
   start: function() {
     Vote.setProvider(web3.currentProvider);
+     // watch for changes
+    
     // Bootstrap the MetaCoin abstraction for Use.
     // MetaCoin.setProvider(web3.currentProvider);
     // VoteSystem.setProvider(web3.currentProvider);
     // // Get the initial account balance so it can be displayed.
-    // web3.eth.getAccounts(function(err, accs) {
-    //   if (err != null) {
-    //     alert("There was an error fetching your accounts.");
-    //     return;
-    //   }
+    web3.eth.getAccounts(function(err, accs) {
+      if (err != null) {
+        alert("There was an error fetching your accounts.");
+        return;
+      }
 
-    //   if (accs.length == 0) {
-    //     alert("Couldn't get any accounts! Make sure your Ethereum client is configured correctly.");
-    //     return;
-    //   }
+      if (accs.length == 0) {
+        alert("Couldn't get any accounts! Make sure your Ethereum client is configured correctly.");
+        return;
+      }
 
-    //   accounts = accs;
-    //   account = accounts[0];
-
-    //   self.refreshBalance();
-    // });
+      accounts = accs;
+      account = accounts[0];
+    });
+    this.watchCreate();
+  },
+  watchCreate: function(){
+    Vote.deployed().then(function(instance) {
+      // watch for changes
+      var event = instance.SucceedSetVote();
+      event.watch(function(error, result){
+        if (!error){
+          // console.log(result);
+          alert('创建投票成功');
+        }
+      });
+      event.stopWatching();
+      // instance.SucceedSetVote(function(error, result){
+      //   if (!error) {
+      //     console.log(result);
+      //     alert('创建投票成功');
+      //   }
+      // });
+    });
   },
   createVote: function(params){
-    var self = this;
-    var nickName = 'firstVote';
-    var theme = 'firstTheme';
-    var voterAddresses = ['0x36DC69A3cDF51De25dE600110e5fD16811906FB3','0x31107c95C62FE161Bce091716879e28d84e2A484'];
-    VoteSystem.deployed().then(function(instance) {
-      return instance.createVote(nickName, theme, voterAddresses, {from: account});
+    Vote.deployed().then(function(instance) {
+      return instance.setVote(params.serials, params.endTime, params.theme, params.proposals, {from: account});
+    }).then(function(result){
+      console.log('hadsfdf');
+      console.log(result);
     }).catch(function(e) {
       console.log(e);
-      self.setStatus("Error sending coin; see log.");
     });
   },
   getResult: function(params) {
-    
+
   },
   vote: function(params) {
 

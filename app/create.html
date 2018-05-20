@@ -13,7 +13,7 @@
 	<link href="https://cdn.bootcss.com/bootstrap/3.0.1/css/bootstrap.css" rel="stylesheet">
 	<link href="https://cdn.bootcss.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet">
 	<!-- END bootstrap -->
-
+  <script type="text/javascript" src="./app.js"></script>
 </head>
 <!-- END HEAD -->
 
@@ -27,10 +27,10 @@
 			<form role="form">
 				
 		<!-- BEGIN voteSummary  -->
-				<div class="form-group">
+<!-- 				<div class="form-group">
 					 <label for="exampleInputEmail1">发起人以太坊地址</label>
-					 <input class="form-control" id="proposer" />
-				</div>
+					 <input class="form-control" id="proposer" value="" />
+				</div> -->
 				<div class="form-group">
 					 <label for="exampleInputEmail1">投票号</label>
 					 <input class="form-control" id="serials" />
@@ -85,19 +85,19 @@
 	<!-- BEGIN JAVASCRIPT -->
 	
 	<!-- BEGIN bootstrap SCRIPTS -->
-	<script src="https://cdn.bootcss.com/bootstrap/3.0.1/js/bootstrap.js"></script>
-	<!-- END bootstrap SCRIPTS --> 
+  <!-- END bootstrap SCRIPTS --> 
   <script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.0.0/jquery.min.js"></script>
-  
+	<script src="https://cdn.bootcss.com/bootstrap/3.0.1/js/bootstrap.js"></script>
+	
   <script type="text/javascript"> 
 	function creatvote(){ 
-		 alert("creatvote"); 
-	  var proposer = document.getElementById("proposer").value; 
+	  // var proposer = document.getElementById("proposer").value; 
 	  var serials = document.getElementById("serials").value; 
 	  var theme = document.getElementById("theme").value; 
 	  var endTime = document.getElementById("endTime").value; 
 	  var proposals = getProposalsInfo(); 
-	  alert(proposals); 
+    App.createVote({serials: serials, theme: theme, endTime: endTime, proposals: proposals})
+	  // alert(proposals); 
 	} 
 
 
