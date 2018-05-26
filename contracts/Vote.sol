@@ -16,6 +16,7 @@ contract Vote is CreateVote{
         uint32[20] array,
         string voterToProposalName
         );
+    event returnProposal(string proposalstr);
         
     //投票人结构体
     struct Voter{
@@ -60,6 +61,11 @@ contract Vote is CreateVote{
         emit SucceedInVote(msg.sender,serial);
     }
     
+    //get  all proposals by serial
+    function getProposals(uint32 serial) public  {
+        emit returnProposal(toMyVote[serial].proposalNames);
+    }
+    
     //check vote
     function checkVote(uint32 serial) public  {
         
@@ -71,3 +77,7 @@ contract Vote is CreateVote{
     }
 }
     
+ 
+    
+   
+

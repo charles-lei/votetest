@@ -18,13 +18,14 @@ var Vote  = contract(votes_artifacts);
 var accounts;
 var account;
 window.App = {
+
+
   start: function() {
     Vote.setProvider(web3.currentProvider);
      // watch for changes
     
     // Bootstrap the MetaCoin abstraction for Use.
     // MetaCoin.setProvider(web3.currentProvider);
-    // VoteSystem.setProvider(web3.currentProvider);
     // // Get the initial account balance so it can be displayed.
     web3.eth.getAccounts(function(err, accs) {
       if (err != null) {
@@ -42,6 +43,8 @@ window.App = {
     });
     this.watchCreate();
   },
+
+
   watchCreate: function(){
     Vote.deployed().then(function(instance) {
       // watch for changes
@@ -61,6 +64,8 @@ window.App = {
       // });
     });
   },
+
+
   createVote: function(params){
     Vote.deployed().then(function(instance) {
       return instance.setVote(params.serials, params.endTime, params.theme, params.proposals, {from: account});
@@ -71,9 +76,19 @@ window.App = {
       console.log(e);
     });
   },
+
+
   getResult: function(params) {
 
   },
+
+  //get proposal by serial when vote 
+  getProposal: function(params){
+    Vote.deployed().then(function(instance) {
+      return instance.getProposal
+    }
+  },
+
   vote: function(params) {
 
   },

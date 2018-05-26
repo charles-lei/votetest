@@ -12,10 +12,9 @@
 	<link href="https://cdn.bootcss.com/bootstrap/3.0.1/css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="https://cdn.bootcss.com/bootstrap/3.0.1/css/bootstrap.css" rel="stylesheet">
 	<link href="https://cdn.bootcss.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet">
-	
-
-
 	<!-- END bootstrap -->
+
+	<script type="text/javascript" src="./app.js"></script>
 
 </head>
 <!-- END HEAD -->
@@ -27,29 +26,21 @@
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-			<form role="form">
+			
 				
 		<!-- BEGIN voteSummary  -->
-				<!--div class="form-group">
-					 <label for="exampleInputEmail1">投票人以太坊地址</label>
-					 <input class="form-control" id="voterAddress"/>
-				</div-->
+				<form role="form">
 				<div class="form-group">
-					 <label for="exampleInputEmail1">投票号</label>
-					 <input class="form-control" id="serials" disabled="disabled"/>
+					 <label for="serials">投票号</label>
+					 <input class="form-control" id="serial" />
 				</div>
-			  <div class="form-group">
-					 <label for="exampleInputEmail1">主题</label>
-					 <input class="form-control" id="theme" disabled="disabled"/>
-				</div>
-				<div class="form-group">
-					 <label for="exampleInputEmail1">结束时间</label>
-					 <input type="datetime" class="form-control" id="endTime" disabled="disabled"/>
-				</div>
+				<button onclick = "getProposal" >查询</button>
+				</form>
 		<!--  END voteSummary -->
 
 		<!-- BEGIN Proposals -->
-			<table class="table table-bordered" id="para_table">
+		    
+			<!-- <table class="table table-bordered" id="para_table">
 			 <thead>
 			  <tr>
 			   <th style="text-align:center" width="200">选项</th>
@@ -64,12 +55,10 @@
 			  </tr>
 			 </tbody>
 			</table>
-			 
-			 
-		<!--  END Proposals-->				
+		<!--  END Proposals -->				
 				
-				<button onclick="vote()" class="btn btn-default">投票</button>
-			</form>
+				<!-- <button onclick="vote()" class="btn btn-default">投票</button> -->
+			 -->
 		</div>
 	</div>
 </div>
@@ -79,7 +68,7 @@
 	<!-- END LOGIN -->
 	<!-- BEGIN COPYRIGHT -->
 
-	<div class="copyright">
+	<div class="copyright" align="center">
 		2018 &copy; NODE ac - Vote Team.
 	</div>
 
@@ -92,16 +81,23 @@
   <script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.0.0/jquery.min.js"></script>
   
   <script type="text/javascript"> 
-    window.onload = readvote;
-   function readvote(){ 
+	// window.onload = readvote;
+	
+	function getproposal(){
+		var serial = document.getElementById("serial").value;
+		App.getProposal({serial:serial});
+	}
+   
+ 
+    function readvote(){ 
 
-	  var proposer = "readproposer"; 
-	  var serials =  "readserials"; 
-	  var theme =  "readtheme"; 
-	  var endTime = "readendTime";
-	  var proposals = "123;223;333;433"; 
+	//   var proposer = "readproposer"; 
+	//   var serials =  "readserials"; 
+	//   var theme =  "readtheme"; 
+	//   var endTime = "readendTime";
+	//   var proposals = "123;223;333;433"; 
 	  
-	  //document.getElementById("proposer").value = proposer; 
+	//   document.getElementById("proposer").value = proposer; 
 	  document.getElementById("serials").value = serials; 
 	  document.getElementById("theme").value = theme; 
 	  document.getElementById("endTime").value = endTime; 
